@@ -1,0 +1,23 @@
+[
+
+// insert erb tags <%= %>
+{ "keys": ["ctrl+shift+."], "command": "erb" },
+
+// texmate like auto-complete using alternative_autocomplete plugin
+{ "keys": ["escape"], "command": "alternative_autocomplete", "context":
+  [
+    { "key": "num_selections", "operator": "equal", "operand": 1 },
+    { "key": "overlay_visible", "operator": "equal", "operand": false },
+    { "key": "panel_visible", "operator": "equal", "operand": false }
+  ]
+},
+{ "keys": ["shift+escape"], "command": "alternative_autocomplete", "args": {"cycle": "previous"}, "context":
+  [
+    { "key": "num_selections", "operator": "equal", "operand": 1 },
+    { "key": "overlay_visible", "operator": "equal", "operand": false },
+    { "key": "panel_visible", "operator": "equal", "operand": false }
+  ]
+},
+{ "keys": ["super+v"], "command": "paste_and_indent" },
+{ "keys": ["super+shift+v"], "command": "paste" }
+]

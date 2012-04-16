@@ -1,0 +1,87 @@
+{
+	"auto_complete_commit_on_tab": true,
+	"auto_complete_triggers":
+	[
+		{
+			"characters": "<",
+			"selector": "text.html"
+		},
+		{
+			"characters": "/",
+			"selector": "string.quoted.double.html,string.quoted.single.html, source.css"
+		}
+	],
+	"bold_folder_labels": true,
+	"color_scheme": "/Users/allen/Library/Application Support/Sublime Text 2/Packages/User/Color Schemes/PlasticCodeWrap.tmTheme",
+	"drawWhiteSpace": true,
+	"draw_indent_guides": false,
+	"draw_minimap_border": false,
+	"fallback_encoding": "UTF-8",
+	"file_exclude_patterns":
+	[
+		"*.tmTheme.cache",
+		"*.tmPreferences.cache",
+		"*.tmLanguage.cache",
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db"
+	],
+	"find_selected_text": true,
+	"folder_exclude_patterns":
+	[
+		".bundle",
+		".git",
+		"CVS",
+		".svn",
+		".hg",
+		"node_modules",
+		"tmp"
+	],
+	"font_face": "Monaco",
+	"font_options":
+	[
+		"subpixel_antialias",
+		"no_round",
+		"directwrite"
+	],
+	"font_size": 13.0,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage",
+		"WordCount",
+		"SublimeCodeIntel",
+		"Abacus",
+		"Alignment",
+		"ASP",
+		"ActionScript",
+		"D"
+	],
+	"indent_guide_options":
+	[
+		"draw_active"
+	],
+	"match_selection": true,
+	"tab_size": 2,
+	"theme": "AB.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"use_simple_full_screen": true,
+	"word_wrap": false
+}

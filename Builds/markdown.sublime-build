@@ -1,0 +1,5 @@
+{
+    "cmd": ["markdown", "$file"],
+    "selector": "text.html.markdown",
+    "file_regex": "(.*?)\\(([0-9]+?)\\)"
+}
