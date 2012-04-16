@@ -1,5 +1,5 @@
 *.cache
 *.bin.gz
 Colorized*
-Livecss.sublime-settings
-SublimeMRU.sublime-settings
+Livecss*
+SublimeMRU*
