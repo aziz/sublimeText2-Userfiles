@@ -40,7 +40,6 @@
 		"/Users/allen/Library/Application Support/Sublime Text 2/Packages/ASCII Decorator/ASCII Decorator.sublime-settings",
 		"/Users/allen/Dropbox/dotfiles/npmrc",
 		"/Users/allen/Library/Application Support/Sublime Text 2/Packages/User/Livecss.sublime-settings",
-		"/Users/allen/Library/Application Support/Sublime Text 2/Packages/User/SublimeMRU.sublime-settings",
 		"/Users/allen/Library/Application Support/Sublime Text 2/Packages/User/BufferScroll.sublime-settings",
 		"/Users/allen/Library/Application Support/Sublime Text 2/Packages/Theme - AB/AB.sublime-theme",
 		"/Users/allen/Library/Application Support/Sublime Text 2/Packages/BufferScroll/BufferScroll.sublime-settings",
@@ -76,6 +75,8 @@
 	"opened":
 	[
 		"/Users/allen/Library/Application Support/Sublime Text 2/Packages/User/.gitignore",
+		"/Users/allen/Library/Application Support/Sublime Text 2/Packages/User/SublimeMRU.sublime-settings",
+		"/Users/allen/Library/Application Support/Sublime Text 2/Packages/User/TODO",
 		"/Users/allen/Burt/preppy/public/js/app.js",
 		"/Users/allen/Burt/preppy/public/index.html",
 		"/Users/allen/Burt/preppy/public/css/app.less",
