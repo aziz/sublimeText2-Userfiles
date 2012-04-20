@@ -1,0 +1,10 @@
+{
+
+    // If true, lines with errors or warnings will have a gutter mark.
+    "sublimelinter_gutter_marks": true,
+    "sublimelinter_executable_map":
+    {
+        "ruby": "/Users/allen/.rvm/rubies/ruby-1.9.3-p125/bin/ruby"
+    }
+
+}

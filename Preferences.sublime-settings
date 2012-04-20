@@ -13,7 +13,6 @@
 	],
 	"bold_folder_labels": true,
 	"color_scheme": "/Users/allen/Library/Application Support/Sublime Text 2/Packages/User/Color Schemes/Colorized-939619653575863-PlasticCodeWrap.tmTheme",
-	"drawWhiteSpace": true,
 	"draw_indent_guides": false,
 	"draw_minimap_border": false,
 	"fallback_encoding": "UTF-8",
@@ -60,7 +59,7 @@
 		"no_round",
 		"directwrite"
 	],
-	"font_size": 13.0,
+	//"font_size": 13.0,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
@@ -80,6 +79,7 @@
 	"match_selection": true,
 	"tab_size": 2,
 	"theme": "AB.sublime-theme",
+	"scroll_past_end": true,
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"use_simple_full_screen": true,

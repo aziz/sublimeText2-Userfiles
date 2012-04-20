@@ -1,0 +1,26 @@
+<snippet>
+  <content><![CDATA[
+angular.module('components', [])
+.directive('directiveName', function factory(injectables) {
+  var directiveDefinitionObject = {
+    priority: 0,
+    template: '<div></div>',
+    templateUrl: 'directive.html',
+    replace: false,
+    transclude: false,
+    restrict: 'A',
+    scope: false,
+    compile: function compile(tElement, tAttrs, transclude) {
+      return {
+        pre: function preLink(scope, iElement, iAttrs, controller) {  },
+        post: function postLink(scope, iElement, iAttrs, controller) {  }
+      };
+    },
+    link: function postLink(scope, iElement, iAttrs) {  }
+  };
+  return directiveDefinitionObject;
+});
+]]></content>
+  <tabTrigger>ngdir</tabTrigger>
+  <scope>source.js</scope>
+</snippet>
