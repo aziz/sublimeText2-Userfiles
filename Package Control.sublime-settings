@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_last_run": 1334819998,
+	"auto_upgrade_last_run": 1335461729,
 	"installed_packages":
 	[
 		"AAAPackageDev",
@@ -9,7 +9,6 @@
 		"ASCII Decorator",
 		"AutoFileName",
 		"BufferScroll",
-		"Can I Use",
 		"cdnjs",
 		"Clipboard History",
 		"CoffeeScript",
@@ -40,6 +39,7 @@
 		"SCSS",
 		"SideBarEnhancements",
 		"sublime-github",
+		"Sublime-HTMLPrettify",
 		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeMRU",

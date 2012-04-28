@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[display: none;${0}]]></content>
-	<tabTrigger>dn</tabTrigger>
-    <description>CSS - display: none</description>
-    <scope>source.css</scope>
-</snippet>

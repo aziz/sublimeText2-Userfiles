@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[font-style: italic;
-
-]]></content>
-	<tabTrigger>ita</tabTrigger>
-    <description>CSS - font-style: italic;</description>
-    <scope>source.css</scope>
-</snippet>

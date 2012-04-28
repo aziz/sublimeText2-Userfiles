@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[text-align: left;
-
-]]></content>
-	<tabTrigger>tal</tabTrigger>
-    <description>CSS - text-align: left;</description>
-    <scope>source.css</scope>
-</snippet>

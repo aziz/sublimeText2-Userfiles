@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>html</string>
+		<string>ng.html</string>
+	</array>
+	<key>name</key>
+	<string>HTML (Angular.js)</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>comment</key>
+			<string>double curly braces</string>
+			<key>match</key>
+			<string>\{\{[^\}\}]+\}\}</string>
+			<key>name</key>
+			<string>support.angular.expression</string>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>constant.angular.directive</string>
+				</dict>
+			</dict>
+			<key>comment</key>
+			<string>angular directives</string>
+			<key>match</key>
+			<string>(ng-model)</string>
+			<key>name</key>
+			<string>constant.angular.directive</string>
+		</dict>
+		<dict>
+			<key>include</key>
+			<string>text.html.basic</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>text.html.angular</string>
+	<key>uuid</key>
+	<string>de8141c6-c6a3-4452-8a75-eb0f527dc043</string>
+</dict>
+</plist>

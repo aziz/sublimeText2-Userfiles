@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[text-align: ${1:left/right/justify};
-
-]]></content>
-	<tabTrigger>ta</tabTrigger>
-    <description>CSS - text-align</description>
-    <scope>source.css</scope>
-</snippet>
