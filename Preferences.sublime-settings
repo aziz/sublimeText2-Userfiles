@@ -12,8 +12,8 @@
 		}
 	],
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/User/Color Schemes/Colorized-300747805062511-PlasticCodeWrap.tmTheme",
-	"draw_indent_guides": false,
+	"color_scheme": "Packages/User/Color Schemes/PlasticCodeWrap.tmTheme",
+	"draw_indent_guides": true,
 	"draw_minimap_border": false,
 	"fallback_encoding": "UTF-8",
 	"file_exclude_patterns":
@@ -63,14 +63,24 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Vintage",
-		"WordCount",
-		"SublimeCodeIntel",
-		"Abacus",
-		"Alignment",
 		"ASP",
+		"D",
+		"Scala",
+		"Lisp",
+		"Vintage",
+		"Abacus",
+		"OCaml",
+		"Graphviz",
+		"DetectSyntax",
+		"Lua",
+		"TCL",
+		"Matlab",
 		"ActionScript",
-		"D"
+		"Go",
+		"Clojure",
+		"Erlang",
+		"Alignment",
+		"WordCount"
 	],
 	"indent_guide_options":
 	[

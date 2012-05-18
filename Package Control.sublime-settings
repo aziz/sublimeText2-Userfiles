@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_last_run": 1335461729,
+	"auto_upgrade_last_run": 1337333718,
 	"installed_packages":
 	[
 		"AAAPackageDev",
@@ -15,6 +15,7 @@
 		"ColorPicker",
 		"DetectSyntax",
 		"ERB Insert and Toggle Commands",
+		"ExportHtml",
 		"Gist",
 		"Git",
 		"Guard",
@@ -34,19 +35,22 @@
 		"Package Control",
 		"Prefixr",
 		"RubyTest",
+		"Sass",
 		"SchemeCycler",
 		"ScopeHunter",
 		"SCSS",
 		"SideBarEnhancements",
+		"sublime-closure-linter",
 		"sublime-github",
 		"Sublime-HTMLPrettify",
-		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeMRU",
 		"SublimeTODO",
 		"SyncedSideBar",
 		"Theme - Soda",
 		"Twitter Bootstrap Snippets",
+		"Twitter Recess",
+		"Wiki",
 		"WordCount",
 		"ZenCoding"
 	]
