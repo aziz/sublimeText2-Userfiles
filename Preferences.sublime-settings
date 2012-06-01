@@ -12,7 +12,7 @@
 		}
 	],
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/User/Color Schemes/PlasticCodeWrap.tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/PlasticCodeWrap.tmTheme",
 	"draw_indent_guides": true,
 	"draw_minimap_border": false,
 	"fallback_encoding": "UTF-8",
@@ -49,8 +49,9 @@
 		"CVS",
 		".svn",
 		".hg",
-		"node_modules",
-		"tmp"
+		"tmp",
+		"node_modules"
+
 	],
 	"font_face": "Monaco",
 	"font_options":
@@ -68,10 +69,9 @@
 		"Scala",
 		"Lisp",
 		"Vintage",
-		"Abacus",
+		"WordCount",
 		"OCaml",
 		"Graphviz",
-		"DetectSyntax",
 		"Lua",
 		"TCL",
 		"Matlab",
@@ -79,8 +79,7 @@
 		"Go",
 		"Clojure",
 		"Erlang",
-		"Alignment",
-		"WordCount"
+		"Groovy"
 	],
 	"indent_guide_options":
 	[

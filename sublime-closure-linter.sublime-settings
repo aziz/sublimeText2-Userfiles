@@ -1,0 +1,17 @@
+{
+    // Flags pass to gjslint.
+    "gjslint_flags": "--nobeep",
+
+    // Flags pass to fixjsstyle.
+    "fixjsstyle_flags": "",
+
+    // Ignore errors, regex.
+    // "Expected an identifier and instead saw 'undefined' \(a reserved word\)"
+    //
+    "ignore_errors": [
+        "Line too long"
+    ],
+
+    // debug flag.
+    "debug": false
+}
