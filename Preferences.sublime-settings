@@ -86,6 +86,7 @@
 		"draw_active"
 	],
 	"match_selection": true,
+	"preview_on_click": false,
 	"scroll_past_end": false,
 	"tab_size": 2,
 	"theme": "AB.sublime-theme",
