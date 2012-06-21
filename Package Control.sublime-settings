@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_last_run": 1338969295,
+	"auto_upgrade_last_run": 1340110915,
 	"installed_packages":
 	[
 		"AAAPackageDev",
@@ -7,6 +7,7 @@
 		"Alignment",
 		"alternative_autocompletion",
 		"AngularJS",
+		"Apidock",
 		"ASCII Decorator",
 		"AutoFileName",
 		"BufferScroll",
@@ -48,6 +49,7 @@
 		"SublimeMRU",
 		"SublimeTODO",
 		"SyncedSideBar",
+		"Tag",
 		"Theme - Soda",
 		"Twitter Bootstrap Snippets",
 		"Twitter Recess",
