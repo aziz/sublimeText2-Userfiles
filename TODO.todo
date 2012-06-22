@@ -1,48 +1,28 @@
+sublime.log_commands(True)
 ☐ idea: sublime pomodro
 ☐ idea: sublime hide comments
 ☐ idea: sublime slides
 
-
-Sublime Text:
-☐ inc-dev-value mess with super+up and should be configured
-
 CSS COLORS auto-complete:
 ☐ currently used
 ☐ named
-☐ cool named
+☐ cool named #BADA55
 ☐ colorpicker
 ☐ colorfunctions
-
-Shortcuts:
-☐ "set font to default size" command
-☐ toggle bookmark shortcut
-☐ hide mini map shortcut
-☐ shortcut preserve case super+alt+a does not work
 
 Feature Requests:
 ☐ FR: find cursor
 ☐ FR: make border radius in selection boxed customizeable in sublime-theme files
 ☐ FR: support for face bold and italic forms of font if the font does not have it builtin
 ☐ FR: full line selection, customizing selection behavior
-☐ FR: better markdown and multi-mardown scope support (table,footnote,citation)
-☐ FR: show scope as hint rather than in status bar
-☐ FR: go to anything should have more actions with shortcut keys other than enter
-☐ FR: Deleting and Renaming are broken
 ☐ FR: hide comments
 ☐ FR: RTL with BiDi support
 ☐ FR: Better Build with preview and output control
 
 _________________________________________________
-{ "keys": ["super+shift+t"], "command": "reopen_last_file" }, // collision with RubyTest
-{ "keys": ["ctrl+space"], "command": "auto_complete" }, // collision with System lang chage
-command+shift+] go to next tab
-command+shift+[ go to prev tab
-
 // change
 { "keys": ["f4"], "command": "next_result" },
 { "keys": ["f6"], "command": "toggle_setting", "args": {"setting": "spell_check"} },
 { "keys": ["ctrl+f6"], "command": "next_misspelling" },
 { "keys": ["f2"], "command": "next_bookmark" },
 { "keys": ["shift+f2"], "command": "prev_bookmark" },
-{ "keys": ["super+f2"], "command": "toggle_bookmark" },
-{ "keys": ["alt+f2"], "command": "context_menu" },

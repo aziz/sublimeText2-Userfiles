@@ -54,13 +54,13 @@
 		"node_modules"
 	],
 	"font_face": "Monaco",
+	"font_size": 13,
 	"font_options":
 	[
 		"subpixel_antialias",
 		"no_round",
 		"directwrite"
 	],
-	"font_size": 13.0,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[

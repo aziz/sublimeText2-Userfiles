@@ -3,6 +3,15 @@
 // insert erb tags <%= %>
 { "keys": ["ctrl+shift+."], "command": "erb" },
 
+// very useful custom shortcuts:
+{ "keys": ["super+alt+w"], "command": "close_other_tabs" },
+{ "keys": ["super+shift+0"], "command": "reset_font_size" },
+{ "keys": ["f1"], "command": "toggle_bookmark" },
+{ "keys": ["super+\\"], "command": "reveal_in_side_bar" },
+{ "keys": ["super+shift+\\"], "command": "open_dir", "args": {"dir": "$file_path", "file": "$file_name"} },
+{ "keys": ["super+alt+control+m"], "command": "context_menu" },
+
+
 // texmate like auto-complete using alternative_autocomplete plugin
 { "keys": ["escape"], "command": "alternative_autocomplete", "context":
   [

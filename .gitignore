@@ -1,5 +1,6 @@
 *.cache
 *.bin.gz
+*.pyc
 Colorized*
 Livecss*
 SublimeMRU*
