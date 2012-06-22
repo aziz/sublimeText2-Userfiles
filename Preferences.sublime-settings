@@ -13,6 +13,7 @@
 	],
 	"bold_folder_labels": true,
 	"color_scheme": "Packages/Color Scheme - Default/PlasticCodeWrap.tmTheme",
+	"detect_slow_plugins": false,
 	"draw_indent_guides": true,
 	"draw_minimap_border": false,
 	"fallback_encoding": "UTF-8",
@@ -51,7 +52,6 @@
 		".hg",
 		"tmp",
 		"node_modules"
-
 	],
 	"font_face": "Monaco",
 	"font_options":
@@ -79,7 +79,8 @@
 		"Go",
 		"Clojure",
 		"Erlang",
-		"Groovy"
+		"Groovy",
+		"SyncedSideBar"
 	],
 	"indent_guide_options":
 	[
@@ -88,11 +89,11 @@
 	"match_selection": true,
 	"preview_on_click": false,
 	"scroll_past_end": false,
+	"soda_classic_tabs": true,
 	"tab_size": 2,
 	"theme": "AB.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"use_simple_full_screen": true,
-	"word_wrap": false,
-	"detect_slow_plugins": false
+	"word_wrap": false
 }
