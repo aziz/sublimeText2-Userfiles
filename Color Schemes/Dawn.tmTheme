@@ -302,6 +302,7 @@
 				<string>#234A97</string>
 			</dict>
 		</dict>
+<!--
 		<dict>
 			<key>name</key>
 			<string>Markup.list</string>
@@ -313,7 +314,31 @@
 				<string>#A20083</string>
 			</dict>
 		</dict>
-		<dict>
+ -->
+ 		<dict>
+ 			<key>name</key>
+ 			<string>punctuation.definition.list_item.markdown</string>
+ 			<key>scope</key>
+ 			<string>punctuation.definition.list_item.markdown</string>
+ 			<key>settings</key>
+ 			<dict>
+ 				<key>foreground</key>
+ 				<string>#A20083</string>
+ 			</dict>
+ 		</dict>
+ 		<dict>
+ 			<key>name</key>
+ 			<string>punctuation.definition.raw.markdown</string>
+ 			<key>scope</key>
+ 			<string>punctuation.definition.raw.markdown</string>
+ 			<key>settings</key>
+ 			<dict>
+ 				<key>foreground</key>
+ 				<string>#00000044</string>
+ 			</dict>
+ 		</dict>
+
+ 			<dict>
 			<key>name</key>
 			<string>Markup.heading</string>
 			<key>scope</key>
