@@ -317,6 +317,20 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>escape chars</string>
+			<key>scope</key>
+			<string>constant.character.escape.markdown </string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>normal</string>
+				<key>foreground</key>
+				<string>#000000</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
 			<string>String.regexp constant.character.escape</string>
 			<key>scope</key>
 			<string>string.regexp constant.character.escape</string>
@@ -386,6 +400,7 @@
 			<dict>
 			</dict>
 		</dict> -->
+
 
  		<dict>
  			<key>name</key>
