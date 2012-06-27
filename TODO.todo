@@ -19,10 +19,3 @@ Feature Requests:
 ☐ FR: RTL with BiDi support
 ☐ FR: Better Build with preview and output control
 
-_________________________________________________
-// change
-{ "keys": ["f4"], "command": "next_result" },
-{ "keys": ["f6"], "command": "toggle_setting", "args": {"setting": "spell_check"} },
-{ "keys": ["ctrl+f6"], "command": "next_misspelling" },
-{ "keys": ["f2"], "command": "next_bookmark" },
-{ "keys": ["shift+f2"], "command": "prev_bookmark" },
