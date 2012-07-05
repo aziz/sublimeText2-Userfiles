@@ -12,7 +12,7 @@
 		}
 	],
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/Color Scheme - Default/Colorized-359501562230540-PlasticCodeWrap.tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/PlasticCodeWrap.tmTheme",
 	"detect_slow_plugins": false,
 	"draw_indent_guides": true,
 	"draw_minimap_border": false,
