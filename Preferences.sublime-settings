@@ -64,24 +64,23 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"Groovy",
 		"ASP",
 		"D",
+		"Clojure",
 		"Scala",
 		"Lisp",
 		"Vintage",
 		"WordCount",
 		"OCaml",
-		"Graphviz",
+		"SyncedSideBar",
 		"Lua",
 		"TCL",
 		"Matlab",
 		"ActionScript",
 		"Go",
-		"Clojure",
-		"Erlang",
-		"Groovy",
-		"SyncedSideBar",
-		"Live CSS"
+		"Graphviz",
+		"Erlang"
 	],
 	"indent_guide_options":
 	[

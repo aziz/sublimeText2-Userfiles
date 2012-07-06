@@ -7,10 +7,10 @@
 	<key>settings</key>
 	<array>
 		<dict>
-		
+
 			<key>bracketsForeground</key>
 			<string>#AE81FF</string>
-			
+
 			<key>bracketsOptions</key>
 			<string>underline</string>
 
@@ -21,7 +21,7 @@
 
 			<key>tagsOptions</key>
 			<string>stippled_underline</string>
-		
+
 			<key>settings</key>
 			<dict>
 				<key>background</key>
@@ -457,9 +457,34 @@
             <key>background</key>
             <string>#1B1B1B</string>
          </dict>
+     </dict>
+		<dict>
+         <key>name</key>
+         <string>Diff Header</string>
+         <key>scope</key>
+         <string>meta.diff.header</string>
+         <key>settings</key>
+         <dict>
+            <key>background</key>
+            <string>#88888844</string>
+            <key>foreground</key>
+            <string>#98ffff</string>
+         </dict>
+     </dict>
+ 		<dict>
+          <key>name</key>
+          <string>Git Commit Comment</string>
+          <key>scope</key>
+          <string>comment.line.number-sign.git-commit</string>
+          <key>settings</key>
+          <dict>
+             <key>background</key>
+             <string>#88888822</string>
+             <key>foreground</key>
+             <string>#f4ce8a55</string>
+          </dict>
       </dict>
 
-		
 	</array>
 	<key>uuid</key>
 
