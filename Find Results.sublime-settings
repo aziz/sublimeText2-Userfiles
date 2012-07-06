@@ -2,7 +2,7 @@
   "color_scheme": "Packages/User/Color Schemes/search.tmTheme",
   "spell_check": false,
   "word_wrap": false,
-  "font_size": 13,
+  "draw_indent_guides": false,
   "line_numbers": false,
   "highlight_line": true
 }
