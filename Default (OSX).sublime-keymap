@@ -12,6 +12,13 @@
 { "keys": ["super+alt+control+m"], "command": "context_menu" },
 { "keys": ["super+alt+control+6"], "command": "toggle_selection_scope" },
 
+{ "keys": ["super+k", "g", "b"], "command": "git_blame" },
+{ "keys": ["super+k", "g", "d"], "command": "git_diff_all" },
+{ "keys": ["super+k", "g", "p"], "command": "git_pull" },
+{ "keys": ["super+k", "g", "u"], "command": "git_push" },
+{ "keys": ["super+k", "g", "a"], "command": "git_add_choice" },
+{ "keys": ["super+k", "g", "c"], "command": "git_commit" },
+
 
 
 // texmate like auto-complete using alternative_autocomplete plugin

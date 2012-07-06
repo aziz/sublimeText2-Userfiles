@@ -1,17 +1,7 @@
 ☐ backticks pair
-
-
-sublime.log_commands(True)
 ☐ idea: sublime pomodro
 ☐ idea: sublime hide comments
 ☐ idea: sublime slides
-
-CSS COLORS auto-complete:
-☐ currently used
-☐ named
-☐ cool named #BADA55
-☐ colorpicker
-☐ colorfunctions
 
 Feature Requests:
 ☐ FR: find cursor
@@ -22,3 +12,6 @@ Feature Requests:
 ☐ FR: RTL with BiDi support
 ☐ FR: Better Build with preview and output control
 
+
+TRICKS:
+sublime.log_commands(True)

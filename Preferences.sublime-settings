@@ -80,7 +80,8 @@
 		"Clojure",
 		"Erlang",
 		"Groovy",
-		"SyncedSideBar"
+		"SyncedSideBar",
+		"Live CSS"
 	],
 	"indent_guide_options":
 	[
