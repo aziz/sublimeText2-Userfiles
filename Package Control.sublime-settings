@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_last_run": 1341572642,
+	"auto_upgrade_last_run": 1341616535,
 	"installed_packages":
 	[
 		"AAAPackageDev",
@@ -13,6 +13,7 @@
 		"BufferScroll",
 		"cdnjs",
 		"Clipboard History",
+		"CoffeeCompile",
 		"CoffeeScript",
 		"CSScomb",
 		"CTags",
@@ -33,6 +34,7 @@
 		"Live CSS",
 		"LiveReload",
 		"Markdown Preview",
+		"Markdown to Clipboard",
 		"Missing Palette Commands",
 		"Nettuts+ Fetch",
 		"Nodejs",
@@ -43,6 +45,7 @@
 		"ScopeHunter",
 		"SCSS",
 		"SideBarEnhancements",
+		"SmartMarkdown",
 		"sublime-closure-linter",
 		"sublime-github",
 		"Sublime-HTMLPrettify",
