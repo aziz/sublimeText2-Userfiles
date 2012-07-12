@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_last_run": 1341616535,
+	"auto_upgrade_last_run": 1341991458,
 	"installed_packages":
 	[
 		"AAAPackageDev",
@@ -19,6 +19,7 @@
 		"CTags",
 		"ERB Insert and Toggle Commands",
 		"ExportHtml",
+		"FileTemplates",
 		"Gist",
 		"Git",
 		"Guard",
@@ -26,6 +27,7 @@
 		"Hex-to-RGBA",
 		"HTML5",
 		"HyperlinkHelper",
+		"INI",
 		"jQuery Snippets pack",
 		"JsFormat",
 		"LaTeXTools",
