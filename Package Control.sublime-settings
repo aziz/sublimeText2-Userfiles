@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_last_run": 1341991458,
+	"auto_upgrade_last_run": 1342236085,
 	"installed_packages":
 	[
 		"AAAPackageDev",
@@ -19,6 +19,7 @@
 		"CTags",
 		"ERB Insert and Toggle Commands",
 		"ExportHtml",
+		"FileDiffs",
 		"FileTemplates",
 		"Gist",
 		"Git",
@@ -44,12 +45,12 @@
 		"Prefixr",
 		"RubyTest",
 		"Sass",
+		"Schemr",
 		"ScopeHunter",
 		"SCSS",
 		"SideBarEnhancements",
 		"SmartMarkdown",
 		"sublime-closure-linter",
-		"sublime-github",
 		"Sublime-HTMLPrettify",
 		"SublimeLinter",
 		"SublimeMRU",

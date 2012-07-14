@@ -1,26 +1,16 @@
-ctrl+shift+D delete line
-learn expand selection shortcuts
-shortcut for quick find all
-Auto-pair typographical quotes
-backticks pair
-less left bug
-shortcut for coffecompile
-
-
-Feature Requests:
-☐ FR: find cursor
-☐ FR: make border radius in selection boxed customizeable in sublime-theme files
-☐ FR: support for face bold and italic forms of font if the font does not have it builtin
-☐ FR: full line selection, customizing selection behavior
-☐ FR: hide comments
-☐ FR: RTL with BiDi support
-☐ FR: Better Build with preview and output control
-
+TODO:
+ ☐ shortcut for quick find all
+ ☐ coffe compile shortcut key
+ ☐ less left bug
+ ☐ emoji snippets
+ ☐ decide between abacus and alignment
+ ☐ Ruby build show output
 
 TRICKS:
 sublime.log_commands(True)
-
-
+--- ✄ -----------------------
+launchctl setenv PATH $PATH to bashrc
+--- ✄ -----------------------
 <dict>
     <key>name</key>
     <string>Git Modified Line</string>

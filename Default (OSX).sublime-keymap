@@ -4,24 +4,147 @@
 { "keys": ["ctrl+shift+."], "command": "erb" },
 
 // very useful custom shortcuts:
-{ "keys": ["super+alt+w"], "command": "close_other_tabs" },
-{ "keys": ["super+shift+0"], "command": "reset_font_size" },
-{ "keys": ["f1"], "command": "toggle_bookmark" },
-{ "keys": ["super+\\"], "command": "reveal_in_side_bar" },
+{ "keys": ["super+alt+w"],    "command": "close_other_tabs" },
+{ "keys": ["super+shift+0"],  "command": "reset_font_size" },
+{ "keys": ["f1"],             "command": "toggle_bookmark" },
+{ "keys": ["super+\\"],       "command": "reveal_in_side_bar" },
 { "keys": ["super+shift+\\"], "command": "open_dir", "args": {"dir": "$file_path", "file": "$file_name"} },
 { "keys": ["super+alt+control+m"], "command": "context_menu" },
 { "keys": ["super+alt+control+6"], "command": "toggle_selection_scope" },
+{ "keys": ["ctrl+shift+d"], "command": "run_macro_file", "args": {"file": "Packages/Default/Delete Line.sublime-macro"} },
 
-{ "keys": ["super+g", "super+b"], "command": "git_blame" },
-{ "keys": ["super+g", "super+d"], "command": "git_diff_all" },
-{ "keys": ["super+g", "super+p"], "command": "git_pull" },
-{ "keys": ["super+g", "super+u"], "command": "git_push" },
-{ "keys": ["super+g", "super+a"], "command": "git_add_choice" },
-{ "keys": ["super+g", "super+c"], "command": "git_commit" },
-{ "keys": ["super+g", "super+s"], "command": "git_status" },
-{ "keys": ["super+g", "super+q"], "command": "git_quick_commit" },
-{ "keys": ["super+g", "super+l"], "command": "git_log" },
+// GIT
+{ "keys": ["super+e", "super+b"], "command": "git_blame" },
+{ "keys": ["super+e", "super+d"], "command": "git_diff_all" },
+{ "keys": ["super+e", "super+p"], "command": "git_pull" },
+{ "keys": ["super+e", "super+u"], "command": "git_push" },
+{ "keys": ["super+e", "super+a"], "command": "git_add_choice" },
+{ "keys": ["super+e", "super+c"], "command": "git_commit" },
+{ "keys": ["super+e", "super+s"], "command": "git_status" },
+{ "keys": ["super+e", "super+q"], "command": "git_quick_commit" },
+{ "keys": ["super+e", "super+l"], "command": "git_log" },
 
+// Auto-pair backticks ``
+{ "keys": ["`"], "command": "insert_snippet", "args": {"contents": "`$0`"}, "context":
+  [
+    { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+    { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+    { "key": "following_text", "operator": "regex_contains", "operand": "^(?:\t| |\\)|]|\\}|>|$)", "match_all": true },
+    { "key": "preceding_text", "operator": "not_regex_contains", "operand": "[`a-zA-Z0-9_]$", "match_all": true },
+    { "key": "eol_selector", "operator": "not_equal", "operand": "string.quoted.single", "match_all": true }
+  ]
+},
+{ "keys": ["`"], "command": "insert_snippet", "args": {"contents": "`${0:$SELECTION}`"}, "context":
+  [
+    { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+    { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
+  ]
+},
+{ "keys": ["`"], "command": "move", "args": {"by": "characters", "forward": true}, "context":
+  [
+    { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+    { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+    { "key": "following_text", "operator": "regex_contains", "operand": "^`", "match_all": true }
+  ]
+},
+{ "keys": ["backspace"], "command": "run_macro_file", "args": {"file": "Packages/Default/Delete Left Right.sublime-macro"}, "context":
+  [
+    { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+    { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+    { "key": "preceding_text", "operator": "regex_contains", "operand": "`$", "match_all": true },
+    { "key": "following_text", "operator": "regex_contains", "operand": "^`", "match_all": true }
+  ]
+},
+
+// Auto-pair “”
+{ "keys": ["“"], "command": "insert_snippet", "args": {"contents": "“$0”"}, "context":
+  [
+    { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+    { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+    { "key": "following_text", "operator": "regex_contains", "operand": "^(?:\t| |\\)|]|;|\\}|$)", "match_all": true }
+  ]
+},
+{ "keys": ["“"], "command": "insert_snippet", "args": {"contents": "“${0:$SELECTION}”"}, "context":
+  [
+    { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+    { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
+  ]
+},
+{ "keys": ["”"], "command": "move", "args": {"by": "characters", "forward": true}, "context":
+  [
+    { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+    { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+    { "key": "following_text", "operator": "regex_contains", "operand": "^”", "match_all": true }
+  ]
+},
+{ "keys": ["backspace"], "command": "run_macro_file", "args": {"file": "Packages/Default/Delete Left Right.sublime-macro"}, "context":
+  [
+    { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+    { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+    { "key": "preceding_text", "operator": "regex_contains", "operand": "“$", "match_all": true },
+    { "key": "following_text", "operator": "regex_contains", "operand": "^”", "match_all": true }
+  ]
+},
+
+// Auto-pair «»
+{ "keys": ["«"], "command": "insert_snippet", "args": {"contents": "«$0»"}, "context":
+  [
+    { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+    { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+    { "key": "following_text", "operator": "regex_contains", "operand": "^(?:\t| |\\)|]|;|\\}|$)", "match_all": true }
+  ]
+},
+{ "keys": ["«"], "command": "insert_snippet", "args": {"contents": "«${0:$SELECTION}»"}, "context":
+  [
+    { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+    { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
+  ]
+},
+{ "keys": ["»"], "command": "move", "args": {"by": "characters", "forward": true}, "context":
+  [
+    { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+    { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+    { "key": "following_text", "operator": "regex_contains", "operand": "^»", "match_all": true }
+  ]
+},
+{ "keys": ["backspace"], "command": "run_macro_file", "args": {"file": "Packages/Default/Delete Left Right.sublime-macro"}, "context":
+  [
+    { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+    { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+    { "key": "preceding_text", "operator": "regex_contains", "operand": "«$", "match_all": true },
+    { "key": "following_text", "operator": "regex_contains", "operand": "^»", "match_all": true }
+  ]
+},
+
+// Auto-pair ‘’
+{ "keys": ["‘"], "command": "insert_snippet", "args": {"contents": "‘$0’"}, "context":
+  [
+    { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+    { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+    { "key": "following_text", "operator": "regex_contains", "operand": "^(?:\t| |\\)|]|;|\\}|$)", "match_all": true }
+  ]
+},
+{ "keys": ["‘"], "command": "insert_snippet", "args": {"contents": "‘${0:$SELECTION}’"}, "context":
+  [
+    { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+    { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
+  ]
+},
+{ "keys": ["’"], "command": "move", "args": {"by": "characters", "forward": true}, "context":
+  [
+    { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+    { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+    { "key": "following_text", "operator": "regex_contains", "operand": "^’", "match_all": true }
+  ]
+},
+{ "keys": ["backspace"], "command": "run_macro_file", "args": {"file": "Packages/Default/Delete Left Right.sublime-macro"}, "context":
+  [
+    { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+    { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+    { "key": "preceding_text", "operator": "regex_contains", "operand": "‘$", "match_all": true },
+    { "key": "following_text", "operator": "regex_contains", "operand": "^’", "match_all": true }
+  ]
+},
 
 // texmate like auto-complete using alternative_autocomplete plugin
 { "keys": ["escape"], "command": "alternative_autocomplete", "context":
@@ -38,6 +161,7 @@
     { "key": "panel_visible", "operator": "equal", "operand": false }
   ]
 },
+
 { "keys": ["super+v"], "command": "paste_and_indent" },
 { "keys": ["super+shift+v"], "command": "paste" }
 ]
