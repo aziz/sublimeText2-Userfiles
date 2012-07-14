@@ -5,6 +5,38 @@ TODO:
  ☐ emoji snippets
  ☐ decide between abacus and alignment
  ☐ Ruby build show output
+ ☐ learn zencodding CSS
+
+:y: ✔
+:n: ✘
+:*: ✱
+:plus: ✚
+:apple: 
+
+:x: ×
+:horse: ♞
+:flower: ✿
+:play: ►
+:heart: ❤
+:crown: ♛
+:cloud: ☁
+:arrow: ➜
+:plane: ✈
+:(c): ©
+:(r): ®
+:tm: ™
+:command: ⌘
+:alt: ⌥
+:delete: ⌦
+:backspace: ⌫
+:enter: ↩
+:shift: ⇧
+:escape: ⎋
+:chevleft: ❮
+:chevright: ❯
+:s1: ¹²³⁴⁵⁶⁷⁸⁹⁰
+:c1: ➊➋➌➍➎➏➐➑➒➓
+
 
 TRICKS:
 sublime.log_commands(True)
