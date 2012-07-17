@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_last_run": 1342236085,
+	"auto_upgrade_last_run": 1342368893,
 	"installed_packages":
 	[
 		"AAAPackageDev",
@@ -17,6 +17,7 @@
 		"CoffeeScript",
 		"CSScomb",
 		"CTags",
+		"DashDoc",
 		"ERB Insert and Toggle Commands",
 		"ExportHtml",
 		"FileDiffs",
@@ -24,6 +25,7 @@
 		"Gist",
 		"Git",
 		"Guard",
+		"Handlebars",
 		"Hex to HSL Color Converter",
 		"Hex-to-RGBA",
 		"HTML5",
@@ -43,6 +45,7 @@
 		"Nodejs",
 		"Package Control",
 		"Prefixr",
+		"Rails Partial",
 		"RubyTest",
 		"Sass",
 		"Schemr",
@@ -60,6 +63,7 @@
 		"Theme - Soda",
 		"Twitter Bootstrap Snippets",
 		"Twitter Recess",
+		"Unicode Character Highlighter",
 		"Wiki",
 		"WordCount",
 		"ZenCoding"

@@ -6,6 +6,8 @@ TODO:
  ☐ decide between abacus and alignment
  ☐ Ruby build show output
  ☐ learn zencodding CSS
+ ☐ add git annotations to theme
+ ☐ auto detect URLS in MD, generally add support for Github flavored MD
 
 :y: ✔
 :n: ✘

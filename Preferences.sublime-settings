@@ -79,10 +79,10 @@
 		"Matlab",
 		"ActionScript",
 		"Go",
+		"CSScomb",
 		"Graphviz",
 		"Erlang",
-		"SublimeLinter",
-		"CSScomb"
+		"SublimeLinter"
 	],
 	"indent_guide_options":
 	[
