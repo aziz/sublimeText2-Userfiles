@@ -12,7 +12,7 @@
 		}
 	],
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/User/Color Schemes/PlasticCodeWrap.tmTheme",
+	"color_scheme": "Packages/User/Color Schemes/Colorized-614052813850852-PlasticCodeWrap.tmTheme",
 	"detect_slow_plugins": true,
 	"draw_indent_guides": true,
 	"draw_minimap_border": false,
@@ -82,7 +82,8 @@
 		"CSScomb",
 		"Graphviz",
 		"Erlang",
-		"SublimeLinter"
+		"SublimeLinter",
+		"Unicode Character Highlighter"
 	],
 	"indent_guide_options":
 	[
