@@ -10,6 +10,29 @@ TODO:
  ☐ auto detect URLS in MD, generally add support for Github flavored MD
  ☐ http://ttscoff.github.com/MarkdownEditing/
 
+CSS:
+ ☐ compressing and decompressing
+
+LESS:
+ ☐ detect and color !important
+ ☐ twitter bootstrap less mixins snippets (make a list)
+
+BOTH:
+ ☐ Add grouping
+
+Color:
+ ☐ color format conversion, color picker, color preview
+ ☐ currently used
+ ☐ named
+ ☐ cool named #BADA55
+ ☐ colorpicker
+ ☐ colorfunctions
+
+MD Featrue requests:
+ ☐ support for github flavored MD
+ ☐ syntax highlight code
+
+
 :y: ✔
 :n: ✘
 :*: ✱
