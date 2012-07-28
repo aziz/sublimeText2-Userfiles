@@ -12,7 +12,7 @@
 		}
 	],
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/User/Color Schemes/Colorized-614052813850852-PlasticCodeWrap.tmTheme",
+	"color_scheme": "Packages/User/Color Schemes/PlasticCodeWrap.tmTheme",
 	"detect_slow_plugins": true,
 	"draw_indent_guides": true,
 	"draw_minimap_border": false,
@@ -60,12 +60,13 @@
 		"no_round",
 		"directwrite"
 	],
-	"font_size": 13.0,
+	"font_size": 14.0,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"Groovy",
 		"ASP",
+		"Unicode Character Highlighter",
 		"D",
 		"Clojure",
 		"Scala",
@@ -76,14 +77,13 @@
 		"SyncedSideBar",
 		"Lua",
 		"TCL",
+		"Graphviz",
 		"Matlab",
 		"ActionScript",
 		"Go",
 		"CSScomb",
-		"Graphviz",
-		"Erlang",
-		"SublimeLinter",
-		"Unicode Character Highlighter"
+		"Live CSS",
+		"Erlang"
 	],
 	"indent_guide_options":
 	[
