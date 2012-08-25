@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_last_run": 1343386698,
+	"auto_upgrade_last_run": 1345847498,
 	"installed_packages":
 	[
 		"AAAPackageDev",
@@ -16,6 +16,7 @@
 		"CoffeeCompile",
 		"CoffeeScript",
 		"CSScomb",
+		"CSSTidy",
 		"CTags",
 		"DashDoc",
 		"ERB Insert and Toggle Commands",
@@ -28,7 +29,9 @@
 		"Handlebars",
 		"Hex to HSL Color Converter",
 		"Hex-to-RGBA",
+		"HTML Compressor",
 		"HTML5",
+		"HTMLAttributes",
 		"HyperlinkHelper",
 		"INI",
 		"jQuery Snippets pack",
@@ -60,6 +63,7 @@
 		"SublimeTODO",
 		"SyncedSideBar",
 		"Tag",
+		"Theme - Phoenix",
 		"Theme - Soda",
 		"Twitter Bootstrap Snippets",
 		"Twitter Recess",
