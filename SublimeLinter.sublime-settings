@@ -1,5 +1,5 @@
 {
-
+    "sublimelinter": "load-save",
     // If true, lines with errors or warnings will have a gutter mark.
     "sublimelinter_gutter_marks": true,
     "sublimelinter_executable_map":

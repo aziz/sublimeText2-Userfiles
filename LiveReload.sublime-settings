@@ -1,0 +1,6 @@
+{
+    "delay_ms" : 100
+  , "apply_js_live" : false
+  , "apply_css_live" : false
+  , "apply_images_live" : true
+}
