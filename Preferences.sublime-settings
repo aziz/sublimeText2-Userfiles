@@ -110,7 +110,9 @@
 		"Go",
 		"CTags",
 		"PHP",
-		"Alignment"
+		"Alignment",
+		"LiveReload",
+		"Objective-C"
 	],
 	"indent_guide_options":
 	[
