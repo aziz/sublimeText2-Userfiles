@@ -1,6 +1,6 @@
 {
   "color_scheme": "Packages/User/Color Schemes/Dawn.tmTheme",
-  "spell_check": true,
+  "spell_check": false,
   "word_wrap": true,
   "font_size": 15,
   "font_face": "Consolas",
