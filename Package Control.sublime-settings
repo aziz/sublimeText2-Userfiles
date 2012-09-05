@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_last_run": 1346077883,
+	"auto_upgrade_last_run": 1346774055,
 	"installed_packages":
 	[
 		"AAAPackageDev",
@@ -35,6 +35,7 @@
 		"HyperlinkHelper",
 		"INI",
 		"jQuery Snippets pack",
+		"JS2Coffee",
 		"JsFormat",
 		"LaTeXTools",
 		"LESS",
@@ -62,6 +63,7 @@
 		"SublimeMRU",
 		"SublimeTODO",
 		"SyncedSideBar",
+		"Table Editor",
 		"Tag",
 		"Theme - Phoenix",
 		"Theme - Soda",

@@ -5,6 +5,7 @@
 		"xsd",
 		"xslt",
 		"svg",
-		"stTheme"
+		"stTheme",
+		"hidden-tmTheme"
 	]
 }

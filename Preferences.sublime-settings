@@ -112,7 +112,8 @@
 		"PHP",
 		"Alignment",
 		"LiveReload",
-		"Objective-C"
+		"Objective-C",
+		"JS2Coffee"
 	],
 	"indent_guide_options":
 	[
