@@ -1,6 +1,7 @@
 {
 	"extensions":
 	[
-		"cron_jobs"
+		"cron_jobs",
+		"conf"
 	]
 }
