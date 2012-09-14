@@ -2,11 +2,17 @@
   "color_scheme": "Packages/User/Color Schemes/Dawn.tmTheme",
   "spell_check": false,
   "word_wrap": true,
-  "font_size": 15,
+  "wrap_width": 100,
+  "font_size": 17,
   "font_face": "Consolas",
   "line_numbers": false,
+  "draw_centered": true,
   "trim_trailing_white_space_on_save": false,
+  "translate_tabs_to_spaces": true,
   "draw_indent_guides": false,
+  "auto_match_enabled": true,
+  "line_padding_top": 4,
+  "caret_style": "wide",
   "extensions":
   [
     "md",
