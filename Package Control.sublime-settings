@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_last_run": 1347609777,
+	"auto_upgrade_last_run": 1347827764,
 	"installed_packages":
 	[
 		"AAAPackageDev",
@@ -19,6 +19,7 @@
 		"CSSTidy",
 		"CTags",
 		"DashDoc",
+		"DataConverter",
 		"ERB Insert and Toggle Commands",
 		"ExportHtml",
 		"FileDiffs",
@@ -49,6 +50,7 @@
 		"Nettuts+ Fetch",
 		"Nodejs",
 		"Package Control",
+		"PlainTasks",
 		"Prefixr",
 		"Rails Partial",
 		"RubyTest",

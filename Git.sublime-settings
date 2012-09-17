@@ -1,0 +1,5 @@
+{
+   "statusbar_branch": false
+  ,"statusbar_status": true
+  ,"statusbar_status_symbols" : {"modified": "≠", "added": "+", "deleted": "×", "untracked": "?", "conflicts": "‼", "renamed":"R", "copied":"C", "clean": "✔", "separator": " "}
+}
