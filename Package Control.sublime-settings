@@ -1,15 +1,16 @@
 {
-	"auto_upgrade_last_run": 1347827764,
+	"auto_upgrade_last_run": 1348305337,
 	"installed_packages":
 	[
 		"AAAPackageDev",
 		"Abacus",
 		"Alignment",
 		"alternative_autocompletion",
-		"AngularJS",
+		"AngularJS (CoffeeScript)",
 		"Apidock",
 		"ASCII Decorator",
 		"AutoFileName",
+		"Browser Refresh",
 		"BufferScroll",
 		"cdnjs",
 		"Clipboard History",

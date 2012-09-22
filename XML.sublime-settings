@@ -6,6 +6,7 @@
 		"xslt",
 		"svg",
 		"stTheme",
-		"hidden-tmTheme"
+		"hidden-tmTheme",
+		"plist"
 	]
 }

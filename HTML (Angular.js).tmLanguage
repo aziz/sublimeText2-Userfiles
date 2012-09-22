@@ -19,26 +19,42 @@
 			<key>name</key>
 			<string>support.angular.expression</string>
 		</dict>
+<!-- 		<dict>
+			<key>comment</key>
+			<string>angular directives</string>
+			<key>match</key>
+			<string>ng-model</string>
+			<key>name</key>
+			<string>constant.angular.directive</string>
+		</dict> -->
+
+
 		<dict>
+			<key>begin</key>
+			<string>\b(ng-model)\b\s*(=)</string>
 			<key>captures</key>
 			<dict>
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>constant.angular.directive</string>
+					<string>entity.other.attribute-name.directive.html</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.separator.key-value.html</string>
 				</dict>
 			</dict>
-			<key>comment</key>
-			<string>angular directives</string>
-			<key>match</key>
-			<string>(ng-model)</string>
+			<key>end</key>
+			<string>(?&lt;='|")</string>
 			<key>name</key>
-			<string>constant.angular.directive</string>
+			<string>meta.attribute-with-value.id.html</string>
 		</dict>
 		<dict>
 			<key>include</key>
 			<string>text.html.basic</string>
 		</dict>
+
 	</array>
 	<key>scopeName</key>
 	<string>text.html.angular</string>
