@@ -716,7 +716,6 @@
 				<string>#FFFFFF</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>Fenced Code Block</string>
@@ -728,7 +727,6 @@
 				<string>#00000033</string>
 			</dict>
 		</dict>
-
 	</array>
 	<key>uuid</key>
 	<string>E7E82498-F9EA-49A6-A0D8-12327EA46B01</string>

@@ -3,12 +3,7 @@ TODO:
  ☐ coffe compile shortcut key
  ☐ less left bug
  ☐ emoji snippets
- ☐ decide between abacus and alignment
- ☐ Ruby build show output
- ☐ learn zencodding CSS
  ☐ add git annotations to theme
- ☐ auto detect URLS in MD, generally add support for Github flavored MD
- ☐ http://ttscoff.github.com/MarkdownEditing/
 
 CSS:
  ☐ compressing and decompressing
@@ -27,11 +22,6 @@ Color:
  ☐ cool named #BADA55
  ☐ colorpicker
  ☐ colorfunctions
-
-MD Featrue requests:
- ☐ support for github flavored MD
- ☐ syntax highlight code
-
 
 :y: ✔
 :n: ✘
