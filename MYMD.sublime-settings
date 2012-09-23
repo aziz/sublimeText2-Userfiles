@@ -20,6 +20,9 @@
   "wrap_width": 90,
   "extensions":
   [
-    "mmd"
+    "md",
+    "markdown",
+    "mdown",
+    "txt"
   ]
 }

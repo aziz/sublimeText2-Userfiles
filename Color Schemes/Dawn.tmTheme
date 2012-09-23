@@ -717,6 +717,18 @@
 			</dict>
 		</dict>
 
+		<dict>
+			<key>name</key>
+			<string>Fenced Code Block</string>
+			<key>scope</key>
+			<string>punctuation.definition.fenced.markdown,variable.language.fenced.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00000033</string>
+			</dict>
+		</dict>
+
 	</array>
 	<key>uuid</key>
 	<string>E7E82498-F9EA-49A6-A0D8-12327EA46B01</string>

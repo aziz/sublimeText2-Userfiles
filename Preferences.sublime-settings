@@ -111,7 +111,10 @@
 		"Go",
 		"CTags",
 		"PHP",
-		"Alignment"
+		"Alignment",
+		"Tag",
+		"Live CSS",
+		"AAAPackageDev"
 	],
 	"indent_guide_options":
 	[
