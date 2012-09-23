@@ -114,7 +114,10 @@
 		"Alignment",
 		"Tag",
 		"Live CSS",
-		"AAAPackageDev"
+		"AAAPackageDev",
+		"Apidock",
+		"AutoFileName",
+		"Sublime-HTMLPrettify"
 	],
 	"indent_guide_options":
 	[

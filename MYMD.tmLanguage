@@ -397,10 +397,6 @@
 				</dict>
 				<dict>
 					<key>include</key>
-					<string>#plain-uri</string>
-				</dict>
-				<dict>
-					<key>include</key>
 					<string>text.html.basic</string>
 				</dict>
 				<dict>
