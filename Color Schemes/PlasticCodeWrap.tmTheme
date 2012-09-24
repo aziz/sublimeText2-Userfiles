@@ -649,6 +649,29 @@
 				<string>#EB939A</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>Angular</string>
+			<key>scope</key>
+			<string>entity.other.attribute-name.angular.html, source.angular.embedded.html</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF3A83</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>HTML Entities</string>
+			<key>scope</key>
+			<string>constant.character.entity.html</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F1E94B</string>
+			</dict>
+		</dict>
+
 
 	</array>
 	<key>uuid</key>

@@ -117,7 +117,8 @@
 		"AAAPackageDev",
 		"Apidock",
 		"AutoFileName",
-		"Sublime-HTMLPrettify"
+		"Sublime-HTMLPrettify",
+		"ScopeHunter"
 	],
 	"indent_guide_options":
 	[
