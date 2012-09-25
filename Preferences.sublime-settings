@@ -118,7 +118,8 @@
 		"Apidock",
 		"AutoFileName",
 		"Sublime-HTMLPrettify",
-		"ScopeHunter"
+		"ScopeHunter",
+		"sublime-closure-linter"
 	],
 	"indent_guide_options":
 	[
