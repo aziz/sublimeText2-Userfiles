@@ -24,7 +24,7 @@
 	<key>keyEquivalent</key>
 	<string>^~M</string>
 	<key>name</key>
-	<string>MYMD</string>
+	<string>Markdown (Github Flavored)</string>
 	<key>patterns</key>
 	<array>
 		<dict>

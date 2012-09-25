@@ -908,7 +908,7 @@
 			<key>match</key>
 			<string>\b(ng-\w+)</string>
 			<key>name</key>
-			<string>entity.other.attribute-name.angular.html</string>
+			<string>constant.character.entity.html, entity.other.attribute-name.angular.html</string>
 		</dict>
 		<key>tag-stuff</key>
 		<dict>
