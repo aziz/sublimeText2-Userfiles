@@ -1,9 +1,13 @@
 TODO:
  ☐ shortcut for quick find all
- ☐ coffe compile shortcut key
  ☐ less left bug
  ☐ emoji snippets
- ☐ add git annotations to theme
+ ☐ markdown (github flavored)
+ ☐ angular enhanced html
+ ☐ better find results tm-language
+
+ Angular:
+ ☐ support for ng: data-ng and ...
 
 CSS:
  ☐ compressing and decompressing
@@ -12,44 +16,34 @@ LESS:
  ☐ detect and color !important
  ☐ twitter bootstrap less mixins snippets (make a list)
 
-BOTH:
- ☐ Add grouping
-
-Color:
- ☐ color format conversion, color picker, color preview
- ☐ currently used
- ☐ named
- ☐ cool named #BADA55
- ☐ colorpicker
- ☐ colorfunctions
-
 :y: ✔
 :n: ✘
 :*: ✱
-:plus: ✚
-:apple: 
-
+:+: ✚
 :x: ×
+:apple: 
 :horse: ♞
 :flower: ✿
+:command: ⌘
+:alt: ⌥
+:escape: ⎋
+:shift: ⇧
+:delete: ⌦
+:backspace: ⌫
+:tm: ™
+:(c): ©
+:(r): ®
+
+:enter: ↩
 :play: ►
 :heart: ❤
 :crown: ♛
 :cloud: ☁
 :arrow: ➜
 :plane: ✈
-:(c): ©
-:(r): ®
-:tm: ™
-:command: ⌘
-:alt: ⌥
-:delete: ⌦
-:backspace: ⌫
-:enter: ↩
-:shift: ⇧
-:escape: ⎋
 :chevleft: ❮
 :chevright: ❯
+:dimond: ✦
 :s1: ¹²³⁴⁵⁶⁷⁸⁹⁰
 :c1: ➊➋➌➍➎➏➐➑➒➓
 
@@ -59,36 +53,36 @@ sublime.log_commands(True)
 --- ✄ -----------------------
 launchctl setenv PATH $PATH to bashrc
 --- ✄ -----------------------
-<dict>
-    <key>name</key>
-    <string>Git Modified Line</string>
-    <key>scope</key>
-    <string>git.changes.x</string>
-    <key>settings</key>
-    <dict>
-        <key>background</key>
-        <string>#272852</string>
-    </dict>
-</dict>
-<dict>
-    <key>name</key>
-    <string>Git Added Line</string>
-    <key>scope</key>
-    <string>git.changes.+</string>
-    <key>settings</key>
-    <dict>
-        <key>background</key>
-        <string>#275822</string>
-    </dict>
-</dict>
-<dict>
-    <key>name</key>
-    <string>Git Remove Line</string>
-    <key>scope</key>
-    <string>git.changes.-</string>
-    <key>settings</key>
-    <dict>
-        <key>background</key>
-        <string>#A72822</string>
-    </dict>
-</dict>
+
+
+Markdown:
+ ☐ bold and italic with * @bug
+ ☐ optional space between lang and qoutes in fenced code @bug
+ ☐ can not highlight bullets that are not separated by a new line @bug
+ ☐ jump to the referenced links @cmd
+ ☐ toggle links referenced/inline @cmd
+ ☐ YAML Front Matter http://google.com syntax highlighting for MultiMarkdow @improvement
+
+http://google.com
+
+Langs to support:
+ ✔ js @done (12-09-23 17:11)
+ ✔ ruby @done (12-09-23 17:11)
+ ✔ python @done (12-09-23 17:11)
+ ✔ coffeescript @done (12-09-23 17:59)
+ ☐ json
+ ☐ CSS
+ ☐ Perl
+ ☐ PHP
+ ☐ C++
+ ☐ Java
+ ☐ less
+ ☐ Objective-C
+ ☐ Sass
+ ☐ scala
+ ☐ SCSS
+ ☐ Shell
+ ☐ SQL
+ ☐ yaml
+ ☐ Clojure
+ ☐ R

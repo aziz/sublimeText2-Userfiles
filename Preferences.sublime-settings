@@ -87,7 +87,7 @@
 		"LaTeXTools",
 		"Batch File",
 		"Missing Palette Commands",
-		"ASP",
+		"AAAPackageDev",
 		"FileTemplates",
 		"C#",
 		"AppleScript",
@@ -108,7 +108,7 @@
 		"C++",
 		"SyncedSideBar",
 		"Objective-C",
-		"AAAPackageDev",
+		"ASP",
 		"Clojure",
 		"BufferScroll",
 		"Clipboard History",
@@ -124,8 +124,7 @@
 		"Go",
 		"CTags",
 		"PHP",
-		"Alignment",
-		"ScopeHunter"
+		"Alignment"
 	],
 	"indent_guide_options":
 	[
