@@ -671,7 +671,17 @@
 				<string>#F1E94B</string>
 			</dict>
 		</dict>
-
+		<dict>
+			<key>name</key>
+			<string>Coffee vars</string>
+			<key>scope</key>
+			<string>variable.assignment.coffee variable.assignment.coffee </string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
 
 	</array>
 	<key>uuid</key>
