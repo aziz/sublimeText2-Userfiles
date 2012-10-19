@@ -81,7 +81,6 @@
 		"ExportHtml",
 		"Matlab",
 		"Java",
-		"R",
 		"Erlang",
 		"Browser Refresh",
 		"LaTeXTools",
@@ -95,7 +94,6 @@
 		"ZenCoding",
 		"Graphviz",
 		"TCL",
-		"Haskell",
 		"CSScomb",
 		"AutoFileName",
 		"Groovy",
@@ -108,7 +106,7 @@
 		"C++",
 		"SyncedSideBar",
 		"Objective-C",
-		"ASP",
+		"R",
 		"Clojure",
 		"BufferScroll",
 		"Clipboard History",
@@ -119,12 +117,14 @@
 		"Live CSS",
 		"JS2Coffee",
 		"Makefile",
-		"Tag",
+		"Haskell",
+		"Alignment",
 		"SQL",
 		"Go",
 		"CTags",
 		"PHP",
-		"Alignment"
+		"ASP",
+		"Tag"
 	],
 	"indent_guide_options":
 	[

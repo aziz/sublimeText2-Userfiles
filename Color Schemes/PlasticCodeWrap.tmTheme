@@ -10,7 +10,8 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#00161F</string>
+				<string>#00161B</string>
+				<!-- <string>#00161F</string> -->
 				<key>caret</key>
 				<string>#8BA7A7</string>
 				<key>foreground</key>
@@ -574,39 +575,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>coffee instance var</string>
-			<key>scope</key>
-			<string>variable.other.readwrite.instance.coffee</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#9DF39F</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>coffee brace</string>
-			<key>scope</key>
-			<string>meta.brace.square.coffee</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#F6F080</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>coffee embeded</string>
-			<key>scope</key>
-			<string>punctuation.section.embedded.coffee</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#4EE161</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>CSS @import</string>
 			<key>scope</key>
 			<string>keyword.control.at-rule.import.css</string>
@@ -673,16 +641,70 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>coffee instance var</string>
+			<key>scope</key>
+			<string>variable.other.readwrite.instance.coffee</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#9DF39F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>coffee brace</string>
+			<key>scope</key>
+			<string>meta.brace.round.coffee,meta.brace.square.coffee</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F6F080</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>coffee embeded</string>
+			<key>scope</key>
+			<string>punctuation.section.embedded.coffee</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#4EE161</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Coffee vars</string>
 			<key>scope</key>
-			<string>variable.assignment.coffee variable.assignment.coffee </string>
+			<string>variable.assignment.coffee variable.assignment.coffee</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#FFFFFF</string>
 			</dict>
 		</dict>
-
+		<dict>
+			<key>name</key>
+			<string>Coffee dots</string>
+			<key>scope</key>
+			<string>meta.delimiter.method.period.coffee</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFAA00</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Coffee curleys</string>
+			<key>scope</key>
+			<string>meta.brace.curly.coffee</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#9DF39F</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>13E579BF-40AB-42E2-9EAB-0AD3EDD88532</string>
