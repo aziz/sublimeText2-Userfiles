@@ -7,6 +7,11 @@
 //{ "keys": ["super+alt+w"],    "command": "close_other_tabs" },
 { "keys": ["super+shift+0"],  "command": "reset_font_size" },
 { "keys": ["f1"],             "command": "toggle_bookmark" },
+{ "keys": ["f3"],             "command": "find_under" },
+{ "keys": ["f7"],             "command": "prev_bookmark" },
+{ "keys": ["f8"],             "command": "clear_bookmarks" },
+{ "keys": ["f9"],             "command": "next_bookmark" },
+{ "keys": ["f10"],            "command": "show_panel", "args": {"panel": "console", "toggle": true} },
 { "keys": ["f11"],            "command": "toggle_distraction_free" },
 
 { "keys": ["super+\\"],       "command": "reveal_in_side_bar" },
