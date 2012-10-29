@@ -300,17 +300,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Doctype/XML Processing</string>
-			<key>scope</key>
-			<string>declaration.sgml.html declaration.doctype, declaration.sgml.html declaration.doctype entity, declaration.sgml.html declaration.doctype string, declaration.xml-processing, declaration.xml-processing entity, declaration.xml-processing string</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#73817D</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>Meta.tag.A</string>
 			<key>scope</key>
 			<string>declaration.tag, declaration.tag entity, meta.tag, meta.tag entity</string>
@@ -566,7 +555,7 @@
 			<key>name</key>
 			<string>html punctuations tags</string>
 			<key>scope</key>
-			<string>punctuation.definition.tag.end.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.html</string>
+			<string>punctuation.definition.tag.end, punctuation.definition.tag.begin, punctuation.definition.tag</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -703,6 +692,17 @@
 			<dict>
 				<key>foreground</key>
 				<string>#9DF39F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Doctype/XML Processing</string>
+			<key>scope</key>
+			<string>meta.tag.sgml.doctype.xml, declaration.sgml.html declaration.doctype, declaration.sgml.html declaration.doctype entity, declaration.sgml.html declaration.doctype string, declaration.xml-processing, declaration.xml-processing entity, declaration.xml-processing string, doctype</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#73817D</string>
 			</dict>
 		</dict>
 	</array>
