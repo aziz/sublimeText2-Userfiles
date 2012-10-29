@@ -7,6 +7,8 @@
 //{ "keys": ["super+alt+w"],    "command": "close_other_tabs" },
 { "keys": ["super+shift+0"],  "command": "reset_font_size" },
 { "keys": ["f1"],             "command": "toggle_bookmark" },
+{ "keys": ["f11"],            "command": "toggle_distraction_free" },
+
 { "keys": ["super+\\"],       "command": "reveal_in_side_bar" },
 { "keys": ["super+shift+\\"], "command": "open_dir", "args": {"dir": "$file_path", "file": "$file_name"} },
 { "keys": ["super+alt+control+m"], "command": "context_menu" },
