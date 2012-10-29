@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_last_run": 1350579210,
+	"auto_upgrade_last_run": 1351440529,
 	"installed_packages":
 	[
 		"AAAPackageDev",
@@ -16,6 +16,7 @@
 		"Clipboard History",
 		"CoffeeCompile",
 		"CoffeeScript",
+		"Console API Snippets (JavaScript)",
 		"CSScomb",
 		"CSSTidy",
 		"CTags",

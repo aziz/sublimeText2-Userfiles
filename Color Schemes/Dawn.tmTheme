@@ -390,8 +390,8 @@
 				<string>#234A97</string>
 			</dict>
 		</dict>
-
-<!-- 		<dict>
+		<!--
+		<dict>
 			<key>name</key>
 			<string>Markup.list</string>
 			<key>scope</key>
@@ -399,9 +399,8 @@
 			<key>settings</key>
 			<dict>
 			</dict>
-		</dict> -->
-
-
+		</dict>
+	  -->
  		<dict>
  			<key>name</key>
  			<string>punctuation.definition.list_item.markdown</string>

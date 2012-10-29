@@ -8,5 +8,6 @@
 
   "hide_open_with_entries_when_there_are_no_applicable" : false,
 
-  "confirm_before_deleting" : false
+  "confirm_before_deleting" : false,
+  "default_browser": "chrome"
 }
