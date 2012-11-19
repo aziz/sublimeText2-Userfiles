@@ -1,11 +1,12 @@
 {
-  "indent_to_bracket": true,
-  "extensions":
-    [
-        "rb",
-        "ru",
-        "Gemfile",
-        "Rakefile",
-        "Guardfile"
-    ]
+	"extensions":
+	[
+		"rb",
+		"ru",
+		"Gemfile",
+		"Rakefile",
+		"Guardfile",
+		"Vagrantfile"
+	],
+	"indent_to_bracket": true
 }

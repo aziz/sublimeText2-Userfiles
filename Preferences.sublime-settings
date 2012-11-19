@@ -62,7 +62,6 @@
 		"directwrite"
 	],
 	"font_size": 14.0,
-	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"LaTeX",
@@ -101,7 +100,6 @@
 		"HTML Compressor",
 		"D",
 		"Lisp",
-		"Schemr",
 		"Color Scheme - Default",
 		"ActionScript",
 		"C++",
@@ -126,7 +124,11 @@
 		"Alignment",
 		"Live CSS",
 		"BIDI",
-		"Handlebars"
+		"Handlebars",
+		"Markdown Preview",
+		"Markdown to Clipboard",
+		"PersistentRegexHighlight",
+		"Theme - Phoenix"
 	],
 	"indent_guide_options":
 	[
