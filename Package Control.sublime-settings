@@ -1,5 +1,4 @@
 {
-	"auto_upgrade_last_run": 1353338694,
 	"installed_packages":
 	[
 		"AAAPackageDev",
@@ -32,6 +31,7 @@
 		"Git",
 		"Guard",
 		"Handlebars",
+		"Hayaku - tools for writing CSS faster",
 		"Hex to HSL Color Converter",
 		"Hex-to-RGBA",
 		"HTML Compressor",
