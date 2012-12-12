@@ -1,5 +1,6 @@
 {
 	"auto_complete": false,
+	"git_gutter_live_mode": false,
 	"auto_complete_commit_on_tab": true,
 	"auto_complete_triggers":
 	[
@@ -87,7 +88,7 @@
 		"LaTeXTools",
 		"Batch File",
 		"Missing Palette Commands",
-		"AAAPackageDev",
+		"ASP",
 		"FileTemplates",
 		"C#",
 		"AppleScript",
@@ -99,7 +100,7 @@
 		"CSScomb",
 		"AutoFileName",
 		"Groovy",
-		"HTML Compressor",
+		"Wiki",
 		"D",
 		"Lisp",
 		"Makefile",
@@ -108,8 +109,7 @@
 		"C++",
 		"SyncedSideBar",
 		"Objective-C",
-		"ASP",
-		"Wiki",
+		"AAAPackageDev",
 		"Markdown Preview",
 		"Clojure",
 		"BufferScroll",
@@ -121,6 +121,7 @@
 		"OCaml",
 		"Live CSS",
 		"JS2Coffee",
+		"HTML Compressor",
 		"Tag",
 		"BIDI",
 		"SQL",
