@@ -1,6 +1,5 @@
 {
 	"auto_complete": false,
-	"git_gutter_live_mode": false,
 	"auto_complete_commit_on_tab": true,
 	"auto_complete_triggers":
 	[
@@ -63,6 +62,7 @@
 		"directwrite"
 	],
 	"font_size": 14.0,
+	"git_gutter_live_mode": false,
 	"ignored_packages":
 	[
 		"LaTeX",
@@ -128,7 +128,8 @@
 		"Go",
 		"CTags",
 		"PHP",
-		"Alignment"
+		"Alignment",
+		"GitGutter"
 	],
 	"indent_guide_options":
 	[
