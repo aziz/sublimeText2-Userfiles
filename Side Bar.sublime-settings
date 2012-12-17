@@ -1,13 +1,10 @@
 {
-  "statusbar_modified_time" : false,
-  "statusbar_modified_time_format" : "%A %b %d %H:%M:%S %Y",
-
-  "statusbar_file_size" : false,
-
-  "close_affected_buffers_when_deleting_even_if_dirty" : false,
-
-  "hide_open_with_entries_when_there_are_no_applicable" : false,
-
-  "confirm_before_deleting" : false,
-  "default_browser": "chrome"
+	"close_affected_buffers_when_deleting_even_if_dirty": false,
+	"confirm_before_deleting": false,
+	"default_browser": "chrome",
+	"hide_open_with_entries_when_there_are_no_applicable": false,
+	"statusbar_file_size": false,
+	"statusbar_modified_time": false,
+	"statusbar_modified_time_format": "%A %b %d %H:%M:%S %Y",
+	"version": "11.13.2012.1305.0"
 }

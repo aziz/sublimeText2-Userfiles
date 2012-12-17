@@ -105,11 +105,13 @@
 		"Lisp",
 		"Makefile",
 		"Color Scheme - Default",
-		"ActionScript",
+		"SQL",
+		"GitGutter",
 		"C++",
 		"SyncedSideBar",
 		"Objective-C",
 		"AAAPackageDev",
+		"ActionScript",
 		"Markdown Preview",
 		"Clojure",
 		"BufferScroll",
@@ -124,12 +126,11 @@
 		"HTML Compressor",
 		"Tag",
 		"BIDI",
-		"SQL",
+		"AngularJS (CoffeeScript)",
 		"Go",
 		"CTags",
 		"PHP",
-		"Alignment",
-		"GitGutter"
+		"Alignment"
 	],
 	"indent_guide_options":
 	[
