@@ -73,7 +73,7 @@
 
 		<dict>
 			<key>begin</key>
-			<string>(```)(python)</string>
+			<string>(```)\s*(python)\s*$</string>
 			<key>captures</key>
 			<dict>
 				<key>1</key>
@@ -102,7 +102,7 @@
 
 		<dict>
 			<key>begin</key>
-			<string>(```)(coffee)</string>
+			<string>(```)\s*(coffee)\s*$</string>
 			<key>captures</key>
 			<dict>
 				<key>1</key>
@@ -131,7 +131,7 @@
 
 		<dict>
 			<key>begin</key>
-			<string>(```)(js)</string>
+			<string>(```)\s*(js|json|javascript)\s*$</string>
 			<key>captures</key>
 			<dict>
 				<key>1</key>
@@ -160,7 +160,7 @@
 
 		<dict>
 			<key>begin</key>
-			<string>(```)(ruby)</string>
+			<string>(```)\s*(ruby)\s*$</string>
 			<key>captures</key>
 			<dict>
 				<key>1</key>
@@ -189,7 +189,7 @@
 
 		<dict>
 			<key>begin</key>
-			<string>(```)(\w+)</string>
+			<string>(```)\s*(\w*)\s*$</string>
 			<key>captures</key>
 			<dict>
 				<key>1</key>

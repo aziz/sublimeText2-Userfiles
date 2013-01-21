@@ -8,6 +8,7 @@
 		"stTheme",
 		"hidden-tmTheme",
 		"plist",
-		"hidden-tmLanguage"
+		"hidden-tmLanguage",
+		"tmLanguage"
 	]
 }

@@ -1,28 +1,27 @@
 {
-  "auto_match_enabled": true,
-  "caret_style": "wide",
-  "color_scheme": "Packages/User/Color Schemes/Dawn.tmTheme",
-  "draw_centered": false,
-  "draw_indent_guides": false,
-  "font_face": "Consolas",
-  "font_size": 17,
-  "gutter": false,
-  "highlight_line": false,
-  "line_numbers": false,
-  "line_padding_bottom": 2,
-  "line_padding_top": 2,
-  "margin": 24,
-  "spell_check": false,
-  "tab_size": 4,
-  "translate_tabs_to_spaces": true,
-  "trim_trailing_white_space_on_save": false,
-  "word_wrap": true,
-  "wrap_width": 90,
-  "extensions":
+	"auto_match_enabled": true,
+	"caret_style": "wide",
+	"color_scheme": "Packages/User/Color Schemes/Dawn.tmTheme",
+	"draw_centered": false,
+	"draw_indent_guides": false,
+	"extensions":
 	[
-		"md",
-    "markdown",
-    "mdown",
-    "txt"
-	]
+		"markdown",
+		"mdown",
+		"txt"
+	],
+	"font_face": "Consolas",
+	"font_size": 17,
+	"gutter": false,
+	"highlight_line": false,
+	"line_numbers": false,
+	"line_padding_bottom": 2,
+	"line_padding_top": 2,
+	"margin": 24,
+	"spell_check": false,
+	"tab_size": 4,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": false,
+	"word_wrap": true,
+	"wrap_width": 90
 }

@@ -71,16 +71,16 @@ Langs to support:
  ✔ ruby @done (12-09-23 17:11)
  ✔ python @done (12-09-23 17:11)
  ✔ coffeescript @done (12-09-23 17:59)
- ☐ json
+ ✔ json @done (13-01-21 13:27)
  ☐ CSS
  ☐ Perl
  ☐ PHP
  ☐ C++
- ☐ Java
- ☐ less
  ☐ Objective-C
- ☐ Sass
+ ☐ Java
  ☐ scala
+ ☐ less
+ ☐ Sass
  ☐ SCSS
  ☐ Shell
  ☐ SQL
