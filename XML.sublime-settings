@@ -10,6 +10,9 @@
 		"hidden-tmTheme",
 		"hidden-tmLanguage",
 		"tmLanguage",
+		"sublime-snippet",
+		"tmtheme",
+		"tmTheme",
 		"sublime-snippet"
 	]
 }

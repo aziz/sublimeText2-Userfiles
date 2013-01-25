@@ -1,4 +1,5 @@
 TODO:
+ ☐ PUT colorized color scheme in a separate folder
  ☐ Rails log syntax highlighter
  ☐ better find results tm-language
  ☐ less left bug
@@ -16,7 +17,7 @@ LESS:
  ☐ detect and color !important
  ☐ twitter bootstrap less mixins snippets (make a list)
 
-
+done:
 :y: ✔
 :n: ✘
 :*: ✱
@@ -34,7 +35,6 @@ LESS:
 :tm: ™
 :(c): ©
 :(r): ®
-
 :enter: ↩
 :play: ►
 :heart: ❤
@@ -45,6 +45,8 @@ LESS:
 :chevleft: ❮
 :chevright: ❯
 :dimond: ✦
+
+waiting:
 :s1: ¹²³⁴⁵⁶⁷⁸⁹⁰
 :c1: ➊➋➌➍➎➏➐➑➒➓
 

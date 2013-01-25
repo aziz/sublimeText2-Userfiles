@@ -1,9 +1,0 @@
-<snippet>
-  <content><![CDATA[
-<!--OPRA ${1:concatnated_file_name}
-  ${2:files_names}
--->$0
-]]></content>
-  <tabTrigger>opra</tabTrigger>
-  <scope>text.html</scope>
-</snippet>

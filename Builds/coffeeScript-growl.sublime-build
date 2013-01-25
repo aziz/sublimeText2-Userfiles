@@ -1,5 +1,0 @@
-{
-	"cmd": ["coffee", "-r", "coffeescript-growl", "-wc", "$file"],
-	"selector": "source.coffee",
-	"path" : "/usr/local/bin"
-}

@@ -1,5 +1,0 @@
-{
-	"cmd": ["sass", "--watch", "$file_name"],
-	"selector" : "source.scss",
-	"path" : "/usr/local/bin"
-}
