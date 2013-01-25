@@ -5,10 +5,11 @@
 		"xsd",
 		"xslt",
 		"svg",
+		"plist",
 		"stTheme",
 		"hidden-tmTheme",
-		"plist",
 		"hidden-tmLanguage",
-		"tmLanguage"
+		"tmLanguage",
+		"sublime-snippet"
 	]
 }
