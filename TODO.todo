@@ -17,36 +17,7 @@ LESS:
  ☐ detect and color !important
  ☐ twitter bootstrap less mixins snippets (make a list)
 
-done:
-:y: ✔
-:n: ✘
-:*: ✱
-:+: ✚
-:x: ×
-:apple: 
-:horse: ♞
-:flower: ✿
-:command: ⌘
-:alt: ⌥
-:escape: ⎋
-:shift: ⇧
-:delete: ⌦
-:backspace: ⌫
-:tm: ™
-:(c): ©
-:(r): ®
-:enter: ↩
-:play: ►
-:heart: ❤
-:crown: ♛
-:cloud: ☁
-:arrow: ➜
-:plane: ✈
-:chevleft: ❮
-:chevright: ❯
-:dimond: ✦
-
-waiting:
+Emoji:
 :s1: ¹²³⁴⁵⁶⁷⁸⁹⁰
 :c1: ➊➋➌➍➎➏➐➑➒➓
 
