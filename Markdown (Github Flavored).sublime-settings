@@ -15,6 +15,7 @@
 	"font_size": 17,
 	"gutter": false,
 	"highlight_line": false,
+	"hyperlink_helper_link_format": "[{{{input}}}]{{#title?}}({{{url}}} \"{{{title}}}\"){{/title?}}{{^title?}}({{{url}}}){{/title?}}",
 	"line_numbers": false,
 	"line_padding_bottom": 2,
 	"line_padding_top": 2,

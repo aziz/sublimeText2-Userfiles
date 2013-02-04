@@ -19,6 +19,7 @@
 { "keys": ["f10"],            "command": "next_color_scheme" },
 { "keys": ["shift+f10"],      "command": "previous_color_scheme" },
 { "keys": ["f11"],            "command": "toggle_distraction_free" },
+{ "keys": ["shift+f12"],      "command": "markdown_preview",  "args": {"target": "browser"} },
 
 { "keys": ["super+\\"],       "command": "reveal_in_side_bar" },
 { "keys": ["super+shift+\\"], "command": "open_dir", "args": {"dir": "$file_path", "file": "$file_name"} },
