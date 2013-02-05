@@ -28,35 +28,35 @@ sublime.log_commands(True)
 launchctl setenv PATH $PATH to bashrc
 --- ✄ -----------------------
 
-
 Markdown:
- ☐ bold and italic with * @bug
- ☐ optional space between lang and qoutes in fenced code @bug
- ☐ can not highlight bullets that are not separated by a new line @bug
- ☐ jump to the referenced links @cmd
+ ☐ bold italic togoether is buggy @low
+ ☐ YML front matter @low
+ ☐ multi level indented bullet list @low
+ ☐ jump to the referenced links and jump back @cmd
  ☐ toggle links referenced/inline @cmd
- ☐ YAML Front Matter http://google.com syntax highlighting for MultiMarkdow @improvement
-
-http://google.com
+ ✔ proper syntax highlighting for ul and ols @bug @done (13-02-05 03:34)
+ ✔ git fenced code @done (13-02-05 02:50)
+ ✔ link highlighter @done (13-02-05 02:50)
+ ✔ bold and italic github style  @bug @done (13-02-05 02:46)
+ ☐ clean up dawn
 
 Langs to support:
- ✔ js @done (12-09-23 17:11)
- ✔ ruby @done (12-09-23 17:11)
- ✔ python @done (12-09-23 17:11)
  ✔ coffeescript @done (12-09-23 17:59)
- ✔ json @done (13-01-21 13:27)
- ☐ CSS
- ☐ Perl
- ☐ PHP
- ☐ C++
- ☐ Objective-C
- ☐ Java
- ☐ scala
- ☐ less
- ☐ Sass
- ☐ SCSS
- ☐ Shell
- ☐ SQL
- ☐ yaml
- ☐ Clojure
- ☐ R
+ ✔ CSS @done (13-02-05 05:43)
+ ✔ diff @done (13-02-05 05:27)
+ ✔ html @done (13-02-05 05:25)
+ ✔ js | json| javascript @done (12-09-23 17:11)
+ ✔ less @done (13-02-05 05:43)
+ ✔ python @done (12-09-23 17:11)
+ ✔ ruby @done (12-09-23 17:11)
+ ✔ Sass | SCSS @done (13-02-05 06:03)
+ ✔ Shell @done (13-02-05 05:59)
+ ✔ xml @done (13-02-05 05:25)
+ ✔ yaml @done (13-02-05 05:55)
+ ✔ ☁C++ | C @done (13-02-05 05:51)
+ ✔ ☁Java @done (13-02-05 05:51)
+ ✔ ☁Objective-C @done (13-02-05 06:06)
+ ✔ ☁Perl @done (13-02-05 05:39)
+ ✔ ☁PHP @done (13-02-05 05:39)
+ ✔ ☁scala @done (13-02-05 06:06)
+ ✔ ☁SQL @done (13-02-05 05:57)

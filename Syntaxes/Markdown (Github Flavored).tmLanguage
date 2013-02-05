@@ -27,6 +27,23 @@
 	<string>Markdown (Github Flavored)</string>
 	<key>patterns</key>
 	<array>
+<!--
+		<dict>
+			<key>begin</key>
+			<string>(?&lt;!\s)---\n$</string>
+			<key>end</key>
+			<string>^---\s</string>
+			<key>name</key>
+			<string>markup.raw.yaml.front-matter</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>source.yaml</string>
+				</dict>
+			</array>
+		</dict>
+ -->
 		<dict>
 			<key>begin</key>
 			<string>(?x)^
@@ -67,6 +84,472 @@
 				<dict>
 					<key>include</key>
 					<string>#separator</string>
+				</dict>
+			</array>
+		</dict>
+
+		<dict>
+			<key>begin</key>
+			<string>(```)\s*(html|html5)\s*$</string>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.fenced.markdown</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>variable.language.fenced.markdown</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>(\1)\n</string>
+			<key>name</key>
+			<string>markup.raw.block.markdown markup.raw.block.fenced.markdown</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>text.html.basic</string>
+				</dict>
+			</array>
+		</dict>
+
+		<dict>
+			<key>begin</key>
+			<string>(```)\s*(xml)\s*$</string>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.fenced.markdown</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>variable.language.fenced.markdown</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>(\1)\n</string>
+			<key>name</key>
+			<string>markup.raw.block.markdown markup.raw.block.fenced.markdown</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>text.xml</string>
+				</dict>
+			</array>
+		</dict>
+
+		<dict>
+			<key>begin</key>
+			<string>(```)\s*(diff)\s*$</string>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.fenced.markdown</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>variable.language.fenced.markdown</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>(\1)\n</string>
+			<key>name</key>
+			<string>markup.raw.block.markdown markup.raw.block.fenced.markdown</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>source.diff</string>
+				</dict>
+			</array>
+		</dict>
+
+		<dict>
+			<key>begin</key>
+			<string>(```)\s*(perl)\s*$</string>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.fenced.markdown</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>variable.language.fenced.markdown</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>(\1)\n</string>
+			<key>name</key>
+			<string>markup.raw.block.markdown markup.raw.block.fenced.markdown</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>source.perl</string>
+				</dict>
+			</array>
+		</dict>
+
+		<dict>
+			<key>begin</key>
+			<string>(```)\s*(php)\s*$</string>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.fenced.markdown</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>variable.language.fenced.markdown</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>(\1)\n</string>
+			<key>name</key>
+			<string>markup.raw.block.markdown markup.raw.block.fenced.markdown</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>source.php</string>
+				</dict>
+			</array>
+		</dict>
+
+
+		<dict>
+			<key>begin</key>
+			<string>(```)\s*(css)\s*$</string>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.fenced.markdown</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>variable.language.fenced.markdown</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>(\1)\n</string>
+			<key>name</key>
+			<string>markup.raw.block.markdown markup.raw.block.fenced.markdown</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>source.css</string>
+				</dict>
+			</array>
+		</dict>
+
+		<dict>
+			<key>begin</key>
+			<string>(```)\s*(less)\s*$</string>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.fenced.markdown</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>variable.language.fenced.markdown</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>(\1)\n</string>
+			<key>name</key>
+			<string>markup.raw.block.markdown markup.raw.block.fenced.markdown</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>source.css.less</string>
+				</dict>
+			</array>
+		</dict>
+
+		<dict>
+			<key>begin</key>
+			<string>(```)\s*(java)\s*$</string>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.fenced.markdown</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>variable.language.fenced.markdown</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>(\1)\n</string>
+			<key>name</key>
+			<string>markup.raw.block.markdown markup.raw.block.fenced.markdown</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>source.java</string>
+				</dict>
+			</array>
+		</dict>
+
+		<dict>
+			<key>begin</key>
+			<string>(```)\s*(c)\s*$</string>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.fenced.markdown</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>variable.language.fenced.markdown</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>(\1)\n</string>
+			<key>name</key>
+			<string>markup.raw.block.markdown markup.raw.block.fenced.markdown</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>source.c</string>
+				</dict>
+			</array>
+		</dict>
+
+
+		<dict>
+			<key>begin</key>
+			<string>(```)\s*(c\+\+)\s*$</string>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.fenced.markdown</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>variable.language.fenced.markdown</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>(\1)\n</string>
+			<key>name</key>
+			<string>markup.raw.block.markdown markup.raw.block.fenced.markdown</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>source.c++</string>
+				</dict>
+			</array>
+		</dict>
+
+		<dict>
+			<key>begin</key>
+			<string>(```)\s*(yaml)\s*$</string>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.fenced.markdown</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>variable.language.fenced.markdown</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>(\1)\n</string>
+			<key>name</key>
+			<string>markup.raw.block.markdown markup.raw.block.fenced.markdown</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>source.yaml</string>
+				</dict>
+			</array>
+		</dict>
+
+		<dict>
+			<key>begin</key>
+			<string>(```)\s*(sql)\s*$</string>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.fenced.markdown</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>variable.language.fenced.markdown</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>(\1)\n</string>
+			<key>name</key>
+			<string>markup.raw.block.markdown markup.raw.block.fenced.markdown</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>source.sql</string>
+				</dict>
+			</array>
+		</dict>
+
+		<dict>
+			<key>begin</key>
+			<string>(```)\s*(shell)\s*$</string>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.fenced.markdown</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>variable.language.fenced.markdown</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>(\1)\n</string>
+			<key>name</key>
+			<string>markup.raw.block.markdown markup.raw.block.fenced.markdown</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>source.shell</string>
+				</dict>
+			</array>
+		</dict>
+
+		<dict>
+			<key>begin</key>
+			<string>(```)\s*(sass|scss)\s*$</string>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.fenced.markdown</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>variable.language.fenced.markdown</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>(\1)\n</string>
+			<key>name</key>
+			<string>markup.raw.block.markdown markup.raw.block.fenced.markdown</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>source.sass</string>
+				</dict>
+			</array>
+		</dict>
+
+		<dict>
+			<key>begin</key>
+			<string>(```)\s*(scala)\s*$</string>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.fenced.markdown</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>variable.language.fenced.markdown</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>(\1)\n</string>
+			<key>name</key>
+			<string>markup.raw.block.markdown markup.raw.block.fenced.markdown</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>source.scala</string>
+				</dict>
+			</array>
+		</dict>
+
+		<dict>
+			<key>begin</key>
+			<string>(```)\s*(objective-c)\s*$</string>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.fenced.markdown</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>variable.language.fenced.markdown</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>(\1)\n</string>
+			<key>name</key>
+			<string>markup.raw.block.markdown markup.raw.block.fenced.markdown</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>source.objc</string>
 				</dict>
 			</array>
 		</dict>
@@ -235,10 +718,15 @@
 
 		<dict>
 			<key>begin</key>
-			<string>^[ ]{0,3}[0-9]+(\.)(?=\s)</string>
+			<string>^[ ]{0,3}([0-9]+)(\.)(?=\s)</string>
 			<key>captures</key>
 			<dict>
 				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.list_item.markdown punctuation.definition.list_item.number.markdown</string>
+				</dict>
+				<key>2</key>
 				<dict>
 					<key>name</key>
 					<string>punctuation.definition.list_item.markdown</string>
@@ -429,12 +917,15 @@
 				</dict>
 			</array>
 		</dict>
+
+
 	</array>
 
 
 
 	<key>repository</key>
 	<dict>
+
 		<key>ampersand</key>
 		<dict>
 			<key>comment</key>
@@ -548,131 +1039,6 @@
 			<string>\G([ ]{4}|\t).*$\n?</string>
 			<key>name</key>
 			<string>markup.raw.block.markdown</string>
-		</dict>
-
-
-		<key>bold</key>
-		<dict>
-			<key>begin</key>
-			<string>(?x)
-						\b(\*\*|__)(?=\S)								# Open
-						(?=
-							(
-							    &lt;[^&gt;]*+&gt;							# HTML tags
-							  | (?&lt;raw&gt;`+)([^`]|(?!(?&lt;!`)\k&lt;raw&gt;(?!`))`)*+\k&lt;raw&gt;
-																	# Raw
-							  | \\[\\`*_{}\[\]()#.!+\-&gt;]?+			# Escapes
-							  | \[
-								(
-								        (?&lt;square&gt;					# Named group
-											[^\[\]\\]				# Match most chars
-								          | \\.						# Escaped chars
-								          | \[ \g&lt;square&gt;*+ \]		# Nested brackets
-								        )*+
-									\]
-									(
-										(							# Reference Link
-											[ ]?					# Optional space
-											\[[^\]]*+\]				# Ref name
-										)
-									  | (							# Inline Link
-											\(						# Opening paren
-												[ \t]*+				# Optional whtiespace
-												&lt;?(.*?)&gt;?			# URL
-												[ \t]*+				# Optional whtiespace
-												(					# Optional Title
-													(?&lt;title&gt;['"])
-													(.*?)
-													\k&lt;title&gt;
-												)?
-											\)
-										)
-									)
-								)
-							  | (?!(?&lt;=\S)\1).						# Everything besides
-																	# style closer
-							)++
-							(?&lt;=\S)\1								# Close
-						\b)
-					</string>
-			<key>captures</key>
-			<dict>
-				<key>1</key>
-				<dict>
-					<key>name</key>
-					<string>punctuation.definition.bold.markdown</string>
-				</dict>
-			</dict>
-			<key>end</key>
-			<string>(?&lt;=\S)(\1)</string>
-			<key>name</key>
-			<string>markup.bold.markdown</string>
-			<key>patterns</key>
-			<array>
-				<dict>
-					<key>applyEndPatternLast</key>
-					<integer>1</integer>
-					<key>begin</key>
-					<string>(?=&lt;[^&gt;]*?&gt;)</string>
-					<key>end</key>
-					<string>(?&lt;=&gt;)</string>
-					<key>patterns</key>
-					<array>
-						<dict>
-							<key>include</key>
-							<string>text.html.basic</string>
-						</dict>
-					</array>
-				</dict>
-				<dict>
-					<key>include</key>
-					<string>#escape</string>
-				</dict>
-				<dict>
-					<key>include</key>
-					<string>#ampersand</string>
-				</dict>
-				<dict>
-					<key>include</key>
-					<string>#bracket</string>
-				</dict>
-				<dict>
-					<key>include</key>
-					<string>#raw</string>
-				</dict>
-				<dict>
-					<key>include</key>
-					<string>#italic</string>
-				</dict>
-				<dict>
-					<key>include</key>
-					<string>#image-inline</string>
-				</dict>
-				<dict>
-					<key>include</key>
-					<string>#link-inline</string>
-				</dict>
-				<dict>
-					<key>include</key>
-					<string>#link-inet</string>
-				</dict>
-				<dict>
-					<key>include</key>
-					<string>#link-email</string>
-				</dict>
-				<dict>
-					<key>include</key>
-					<string>#image-ref</string>
-				</dict>
-				<dict>
-					<key>include</key>
-					<string>#link-ref-literal</string>
-				</dict>
-				<dict>
-					<key>include</key>
-					<string>#link-ref</string>
-				</dict>
-			</array>
 		</dict>
 
 
@@ -941,48 +1307,49 @@
 		<key>italic</key>
 		<dict>
 			<key>begin</key>
-			<string>(?x)
-						\b(\*|_)(?=\S)								# Open
-						(?=
-							(
-							    &lt;[^&gt;]*+&gt;							# HTML tags
-							  | (?&lt;raw&gt;`+)([^`]|(?!(?&lt;!`)\k&lt;raw&gt;(?!`))`)*+\k&lt;raw&gt;
-																	# Raw
-							  | \\[\\`*_{}\[\]()#.!+\-&gt;]?+			# Escapes
-							  | \[
-								(
-								        (?&lt;square&gt;					# Named group
-											[^\[\]\\]				# Match most chars
-								          | \\.						# Escaped chars
-								          | \[ \g&lt;square&gt;*+ \]		# Nested brackets
-								        )*+
-									\]
-									(
-										(							# Reference Link
-											[ ]?					# Optional space
-											\[[^\]]*+\]				# Ref name
-										)
-									  | (							# Inline Link
-											\(						# Opening paren
-												[ \t]*+				# Optional whtiespace
-												&lt;?(.*?)&gt;?			# URL
-												[ \t]*+				# Optional whtiespace
-												(					# Optional Title
-													(?&lt;title&gt;['"])
-													(.*?)
-													\k&lt;title&gt;
-												)?
-											\)
-										)
-									)
-								)
-							  | \1\1								# Must be bold closer
-							  | (?!(?&lt;=\S)\1).						# Everything besides
-																	# style closer
-							)++
-							(?&lt;=\S)\1								# Close
-						\b)
-					</string>
+      <string>(?x)
+            (?:^|\s)(\*|_)(?=\S)                # Open
+            (?=
+              (
+                  &lt;[^&gt;]*+&gt;             # HTML tags
+                | (?&lt;raw&gt;`+)([^`]|(?!(?&lt;!`)\k&lt;raw&gt;(?!`))`)*+\k&lt;raw&gt;
+                                  # Raw
+                | \\[\\`*_{}\[\]()#.!+\-&gt;]?+     # Escapes
+                | \[
+                (
+                        (?&lt;square&gt;          # Named group
+                      [^\[\]\\]       # Match most chars
+                          | \\.           # Escaped chars
+                          | \[ \g&lt;square&gt;*+ \]    # Nested brackets
+                        )*+
+                  \]
+                  (
+                    (             # Reference Link
+                      [ ]?          # Optional space
+                      \[[^\]]*+\]       # Ref name
+                    )
+                    | (             # Inline Link
+                      \(            # Opening paren
+                        [ \t]*+       # Optional whtiespace
+                        &lt;?(.*?)&gt;?     # URL
+                        [ \t]*+       # Optional whtiespace
+                        (         # Optional Title
+                          (?&lt;title&gt;['"])
+                          (.*?)
+                          \k&lt;title&gt;
+                        )?
+                      \)
+                    )
+                  )
+                )
+                | \1\1                # Must be bold closer
+                | (?!(?&lt;=\S)\1).           # Everything besides
+                                  # style closer
+              )++
+              (?&lt;=\S)\1(?:\s)                # Close
+            )
+          </string>
+
 			<key>captures</key>
 			<dict>
 				<key>1</key>
@@ -1062,6 +1429,7 @@
 				</dict>
 			</array>
 		</dict>
+
 		<key>line-break</key>
 		<dict>
 			<key>match</key>
@@ -1069,6 +1437,7 @@
 			<key>name</key>
 			<string>meta.dummy.line-break</string>
 		</dict>
+
 		<key>link-email</key>
 		<dict>
 			<key>captures</key>
@@ -1094,6 +1463,7 @@
 			<key>name</key>
 			<string>meta.link.email.lt-gt.markdown</string>
 		</dict>
+
 		<key>link-inet</key>
 		<dict>
 			<key>captures</key>
@@ -1119,6 +1489,7 @@
 			<key>name</key>
 			<string>meta.link.inet.markdown</string>
 		</dict>
+
 		<key>link-inline</key>
 		<dict>
 			<key>captures</key>
@@ -1217,6 +1588,7 @@
 			<key>name</key>
 			<string>meta.link.inline.markdown</string>
 		</dict>
+
 		<key>link-ref</key>
 		<dict>
 			<key>captures</key>
@@ -1257,6 +1629,7 @@
 			<key>name</key>
 			<string>meta.link.reference.markdown</string>
 		</dict>
+
 		<key>link-ref-literal</key>
 		<dict>
 			<key>captures</key>
@@ -1292,6 +1665,7 @@
 			<key>name</key>
 			<string>meta.link.reference.literal.markdown</string>
 		</dict>
+
 		<key>list-paragraph</key>
 		<dict>
 			<key>patterns</key>
@@ -1306,6 +1680,30 @@
 					<key>patterns</key>
 					<array>
 						<dict>
+							<key>match</key>
+							<string>^[ ]{0,3}([*+-])(?=\s)</string>
+							<key>name</key>
+							<string>punctuation.definition.list_item.markdown</string>
+						</dict>
+						<dict>
+							<key>match</key>
+							<string>^[ ]{0,3}([0-9]+)(\.)(?=\s)</string>
+							<key>captures</key>
+							<dict>
+								<key>1</key>
+								<dict>
+									<key>name</key>
+									<string>punctuation.definition.list_item.markdown punctuation.definition.list_item.number.markdown</string>
+								</dict>
+								<key>2</key>
+								<dict>
+									<key>name</key>
+									<string>punctuation.definition.list_item.markdown</string>
+								</dict>
+							</dict>
+						</dict>
+
+						<dict>
 							<key>include</key>
 							<string>#inline</string>
 						</dict>
@@ -1313,6 +1711,7 @@
 				</dict>
 			</array>
 		</dict>
+
 		<key>raw</key>
 		<dict>
 			<key>captures</key>
@@ -1333,6 +1732,7 @@
 			<key>name</key>
 			<string>markup.raw.inline.markdown</string>
 		</dict>
+
 		<key>separator</key>
 		<dict>
 			<key>match</key>
@@ -1340,6 +1740,131 @@
 			<key>name</key>
 			<string>meta.separator.markdown</string>
 		</dict>
+
+		<key>bold</key>
+		<dict>
+			<key>begin</key>
+      <string>(?x)
+            (?:^|\s|\G)(\*\*|__)(?=\S)               # Open
+            (?=
+              (
+                  &lt;[^&gt;]*+&gt;             # HTML tags
+                | (?&lt;raw&gt;`+)([^`]|(?!(?&lt;!`)\k&lt;raw&gt;(?!`))`)*+\k&lt;raw&gt;
+                                  # Raw
+                | \\[\\`*_{}\[\]()#.!+\-&gt;]?+     # Escapes
+                | \[
+                (
+                        (?&lt;square&gt;          # Named group
+                      [^\[\]\\]       # Match most chars
+                          | \\.           # Escaped chars
+                          | \[ \g&lt;square&gt;*+ \]    # Nested brackets
+                        )*+
+                  \]
+                  (
+                    (             # Reference Link
+                      [ ]?          # Optional space
+                      \[[^\]]*+\]       # Ref name
+                    )
+                    | (             # Inline Link
+                      \(            # Opening paren
+                        [ \t]*+       # Optional whtiespace
+                        &lt;?(.*?)&gt;?     # URL
+                        [ \t]*+       # Optional whtiespace
+                        (         # Optional Title
+                          (?&lt;title&gt;['"])
+                          (.*?)
+                          \k&lt;title&gt;
+                        )?
+                      \)
+                    )
+                  )
+                )
+                | (?!(?&lt;=\S)\1).           # Everything besides
+                                  # style closer
+              )++
+              (?&lt;=\S)\1                # Close
+            )
+      </string>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.bold.markdown</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>(?&lt;=\S)(\1)</string>
+			<key>name</key>
+			<string>markup.bold.markdown</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>applyEndPatternLast</key>
+					<integer>1</integer>
+					<key>begin</key>
+					<string>(?=&lt;[^&gt;]*?&gt;)</string>
+					<key>end</key>
+					<string>(?&lt;=&gt;)</string>
+					<key>patterns</key>
+					<array>
+						<dict>
+							<key>include</key>
+							<string>text.html.basic</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#escape</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#ampersand</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#bracket</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#raw</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#italic</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#image-inline</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#link-inline</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#link-inet</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#link-email</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#image-ref</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#link-ref-literal</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#link-ref</string>
+				</dict>
+			</array>
+		</dict>
+
 		<key>plain-uri</key>
 		<dict>
 			<key>match</key>
