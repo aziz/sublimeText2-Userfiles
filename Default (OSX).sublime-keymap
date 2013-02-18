@@ -1,5 +1,7 @@
 [
 
+{ "keys": ["ctrl+shift+t"], "command": "print_theme_rule"},
+
 // old sidebar enhancement shortcuts
 { "keys": ["ctrl+t"], "command": "side_bar_new_file2" },
 { "keys": ["f2"], "command": "side_bar_rename" },

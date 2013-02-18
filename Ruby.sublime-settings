@@ -6,7 +6,8 @@
 		"Gemfile",
 		"Rakefile",
 		"Guardfile",
-		"Vagrantfile"
+		"Vagrantfile",
+		"jbuilder"
 	],
 	"indent_to_bracket": true
 }

@@ -27,6 +27,7 @@
 		"DashDoc",
 		"DataConverter",
 		"EasyMotion",
+		"Emmet",
 		"ERB Insert and Toggle Commands",
 		"Exec In Window",
 		"ExportHtml",
@@ -99,7 +100,6 @@
 		"TypeScript",
 		"Unicode Character Highlighter",
 		"Wiki",
-		"WordCount",
-		"ZenCoding"
+		"WordCount"
 	]
 }
