@@ -1,10 +1,9 @@
 {
     "sublimelinter": "load-save",
-    // If true, lines with errors or warnings will have a gutter mark.
     "sublimelinter_gutter_marks": false,
     "sublimelinter_executable_map":
     {
-        "ruby": "/Users/allen/.rvm/rubies/ruby-1.9.3-p125/bin/ruby"
+        "ruby": "/Users/allen/.rvm/rubies/ruby-1.9.3-p392/bin/ruby"
     },
     "sublimelinter_disable": ["css"]
 }

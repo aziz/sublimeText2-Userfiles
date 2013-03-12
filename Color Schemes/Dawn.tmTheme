@@ -717,13 +717,25 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Raw Block</string>
+			<key>scope</key>
+			<string>markup.raw.block.fenced.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#222</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
 			<string>Fenced Code Block</string>
 			<key>scope</key>
 			<string>punctuation.definition.fenced.markdown,variable.language.fenced.markdown</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#00000033</string>
+				<string>#222222cc</string>
 			</dict>
 		</dict>
 	</array>
