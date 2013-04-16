@@ -10,8 +10,8 @@
 		"mdown",
 		"txt"
 	],
-	"font_face": "Consolas",
-	"font_size": 17,
+	"font_face": "menlo",
+	"font_size": 15,
 	"gutter": false,
 	"highlight_line": false,
 	"line_numbers": false,

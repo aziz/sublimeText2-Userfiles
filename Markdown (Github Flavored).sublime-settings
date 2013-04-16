@@ -1,5 +1,6 @@
 {
 	"hyperlink_helper_link_format": "[{{{input}}}]{{#title?}}({{{url}}} \"{{{title}}}\"){{/title?}}{{^title?}}({{{url}}}){{/title?}}",
-	"spell_check": false
-
+	"spell_check": false,
+  "font_face": "Menlo",
+  "font_size": 15
 }
