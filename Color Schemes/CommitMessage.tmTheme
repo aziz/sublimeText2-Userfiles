@@ -49,7 +49,7 @@
 			<key>name</key>
 			<string>Commit Summery Block</string>
 			<key>scope</key>
-			<string>text.git-commit comment.line.number-sign.git-commit</string>
+			<string>comment.line.number-sign.git-commit</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -62,7 +62,7 @@
 			<key>name</key>
 			<string>Commit Summery Punctuation</string>
 			<key>scope</key>
-			<string>text.git-commit comment.line.number-sign.git-commit punctuation.definition.comment.git-commit</string>
+			<string>comment.line.number-sign.git-commit punctuation.definition.comment.git-commit</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -73,7 +73,7 @@
 			<key>name</key>
 			<string>Commit Diff Header</string>
 			<key>scope</key>
-			<string>text.git-commit meta.diff.git-commit meta.diff.header</string>
+			<string>meta.diff.header</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -86,7 +86,7 @@
 			<key>name</key>
 			<string>Commit Diff Header ---</string>
 			<key>scope</key>
-			<string>text.git-commit meta.diff.git-commit meta.diff.header.from-file punctuation.definition.from-file.diff</string>
+			<string>meta.diff.header.from-file punctuation.definition.from-file.diff</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -97,7 +97,7 @@
 			<key>name</key>
 			<string>Commit Diff Header +++</string>
 			<key>scope</key>
-			<string>text.git-commit meta.diff.git-commit meta.diff.header.to-file punctuation.definition.to-file.diff</string>
+			<string>meta.diff.header.to-file punctuation.definition.to-file.diff</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -108,7 +108,7 @@
 			<key>name</key>
 			<string>Commit Diff Range</string>
 			<key>scope</key>
-			<string>text.git-commit meta.diff.git-commit meta.diff.range.unified</string>
+			<string>meta.diff.git-commit meta.diff.range.unified</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -178,7 +178,7 @@
 			<key>name</key>
 			<string>Meta Diff Range TOC List</string>
 			<key>scope</key>
-			<string>text.git-commit meta.diff.git-commit meta.diff.range.unified meta.toc-list.line-number.diff</string>
+			<string>meta.diff.git-commit meta.diff.range.unified meta.toc-list.line-number.diff</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
