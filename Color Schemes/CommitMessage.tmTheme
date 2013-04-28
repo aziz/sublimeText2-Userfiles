@@ -176,7 +176,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Meta Diff</string>
+			<string>Meta Diff Range TOC List</string>
 			<key>scope</key>
 			<string>text.git-commit meta.diff.git-commit meta.diff.range.unified meta.toc-list.line-number.diff</string>
 			<key>settings</key>
