@@ -1,42 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+======================================================================
+Earthsong Light
+======================================================================
+A Sublime Text 2 / Textmate theme.
+Copyright (c) 2012 Dayle Rees.
+Released under the MIT License <http://opensource.org/licenses/MIT>
+======================================================================
+Find more themes at : https://github.com/daylerees/colour-schemes
+======================================================================
+-->
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>Rhuk</string>
+	<string>Earthsong Light</string>
 	<key>settings</key>
 	<array>
 		<dict>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#222222</string>
+				<string>#FFFFFF</string>
 				<key>caret</key>
-				<string>#F8F8F0</string>
+				<string>#615649</string>
 				<key>foreground</key>
-				<string>#e6e2da</string>
+				<string>#7D6852</string>
 				<key>invisibles</key>
 				<string>#3B3A32</string>
 				<key>lineHighlight</key>
-				<string>#3E3D32</string>
+				<string>#F0E7DF</string>
 				<key>selection</key>
-				<string>#49483E</string>
+				<string>#DBCEBF</string>
 				<key>findHighlight</key>
 				<string>#FFE792</string>
 				<key>findHighlightForeground</key>
 				<string>#000000</string>
 				<key>selectionBorder</key>
-				<string>#222218</string>
+				<string>#B0987D</string>
 				<key>activeGuide</key>
-				<string>#9b5b38</string>
+				<string>#9D550FB0</string>
 
 				<key>bracketsForeground</key>
-				<string>#ffffff</string>
+				<string>#F8F8F2A5</string>
 				<key>bracketsOptions</key>
 				<string>underline</string>
 
 				<key>bracketContentsForeground</key>
-				<string>#ffffff</string>
+				<string>#F8F8F2A5</string>
 				<key>bracketContentsOptions</key>
 				<string>underline</string>
 
@@ -52,7 +63,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#686760</string>
+				<string>#BAA188</string>
 			</dict>
 		</dict>
 		<dict>
@@ -63,7 +74,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E6DB74</string>
+				<string>#DB9D18</string>
 			</dict>
 		</dict>
 		<dict>
@@ -74,7 +85,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#fdc51a</string>
+				<string>#7BA84D</string>
 			</dict>
 		</dict>
 
@@ -86,7 +97,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#fdc51a</string>
+				<string>#7BA84D</string>
 			</dict>
 		</dict>
 		<dict>
@@ -97,7 +108,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#fdc51a</string>
+				<string>#7BA84D</string>
 			</dict>
 		</dict>
 		<dict>
@@ -119,7 +130,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ff6814</string>
+				<string>#D45C28</string>
 			</dict>
 		</dict>
 		<dict>
@@ -132,7 +143,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#ff6814</string>
+				<string>#BF2608</string>
 			</dict>
 		</dict>
 		<dict>
@@ -145,7 +156,7 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#66D9EF</string>
+				<string>#7BA84D</string>
 			</dict>
 		</dict>
 		<dict>
@@ -158,7 +169,7 @@
 				<key>fontStyle</key>
 				<string>underline</string>
 				<key>foreground</key>
-				<string>#e1861c</string>
+				<string>#7BA84D</string>
 			</dict>
 		</dict>
 		<dict>
@@ -171,7 +182,7 @@
 				<key>fontStyle</key>
 				<string>italic underline</string>
 				<key>foreground</key>
-				<string>#e1861c</string>
+				<string>#7BA84D</string>
 			</dict>
 		</dict>
 		<dict>
@@ -184,7 +195,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#e1861c</string>
+				<string>#448048</string>
 			</dict>
 		</dict>
 		<dict>
@@ -197,7 +208,7 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#FD971F</string>
+				<string>#7BA84D</string>
 			</dict>
 		</dict>
 		<dict>
@@ -210,7 +221,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#ff6814</string>
+				<string>#BF2608</string>
 			</dict>
 		</dict>
 		<dict>
@@ -223,7 +234,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#e1861c</string>
+				<string>#7BA84D</string>
 			</dict>
 		</dict>
 		<dict>
@@ -236,7 +247,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#66D9EF</string>
+				<string>#7BA84D</string>
 			</dict>
 		</dict>
 		<dict>
@@ -249,7 +260,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#66D9EF</string>
+				<string>#7BA84D</string>
 			</dict>
 		</dict>
 		<dict>
@@ -262,7 +273,7 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#66D9EF</string>
+				<string>#7BA84D</string>
 			</dict>
 		</dict>
 		<dict>
@@ -284,7 +295,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#ff6814</string>
+				<string>#00A8C6</string>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
@@ -299,7 +310,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#fdc51a</string>
+				<string>#8FBE00</string>
 				<key>foreground</key>
 				<string>#F8F8F0</string>
 			</dict>
@@ -335,7 +346,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ff6814</string>
+				<string>#00A8C6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -346,7 +357,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#e1861c</string>
+				<string>#A6E22E</string>
 			</dict>
 		</dict>
 		<dict>
@@ -367,7 +378,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#fdc51aA0</string>
+				<string>#8FBE00A0</string>
 			</dict>
 		</dict>
 		<dict>
@@ -382,6 +393,6 @@
 
 	</array>
 	<key>uuid</key>
-	<string>D8D5E82E-3D5B-46B5-B38E-8C841C21347D</string>
+	<string>1288CE68-F6B6-4E5F-B419-41BC59FBE56F</string>
 </dict>
 </plist>

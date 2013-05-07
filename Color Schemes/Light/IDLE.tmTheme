@@ -2,15 +2,19 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>author</key>
+	<string>Domenico Carbotta</string>
 	<key>name</key>
-	<string>Juicy</string>
+	<string>IDLE</string>
+	<key>semanticClass</key>
+	<string>theme.light.idle</string>
 	<key>settings</key>
 	<array>
 		<dict>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#F1F1F1</string>
+				<string>#FFFFFF</string>
 				<key>caret</key>
 				<string>#000000</string>
 				<key>foreground</key>
@@ -20,7 +24,7 @@
 				<key>lineHighlight</key>
 				<string>#00000012</string>
 				<key>selection</key>
-				<string>#A9C9FF</string>
+				<string>#BAD6FD</string>
 			</dict>
 		</dict>
 		<dict>
@@ -30,21 +34,8 @@
 			<string>comment</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>italic</string>
 				<key>foreground</key>
-				<string>#999999</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Storage</string>
-			<key>scope</key>
-			<string>storage</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
+				<string>#919191</string>
 			</dict>
 		</dict>
 		<dict>
@@ -55,7 +46,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FF6600</string>
+				<string>#00A33F</string>
 			</dict>
 		</dict>
 		<dict>
@@ -64,10 +55,7 @@
 			<key>scope</key>
 			<string>constant.numeric</string>
 			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#33CC00</string>
-			</dict>
+			<dict/>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -75,7 +63,10 @@
 			<key>scope</key>
 			<string>constant.language</string>
 			<key>settings</key>
-			<dict/>
+			<dict>
+				<key>foreground</key>
+				<string>#A535AE</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -91,10 +82,7 @@
 			<key>scope</key>
 			<string>variable.language, variable.other</string>
 			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#0099CC</string>
-			</dict>
+			<dict/>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -103,21 +91,30 @@
 			<string>keyword</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
-				<string>#993300</string>
+				<string>#FF5600</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Class name</string>
+			<string>Storage</string>
 			<key>scope</key>
-			<string>entity.name.class</string>
+			<string>storage</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
+				<key>foreground</key>
+				<string>#FF5600</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Type name</string>
+			<key>scope</key>
+			<string>entity.name.type</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#21439C</string>
 			</dict>
 		</dict>
 		<dict>
@@ -136,7 +133,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FF0000</string>
+				<string>#21439C</string>
 			</dict>
 		</dict>
 		<dict>
@@ -153,10 +150,7 @@
 			<key>scope</key>
 			<string>entity.name.tag</string>
 			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#FF0000</string>
-			</dict>
+			<dict/>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -164,10 +158,7 @@
 			<key>scope</key>
 			<string>entity.other.attribute-name</string>
 			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#993300</string>
-			</dict>
+			<dict/>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -176,10 +167,8 @@
 			<string>support.function</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
-				<string>#CC0000</string>
+				<string>#A535AE</string>
 			</dict>
 		</dict>
 		<dict>
@@ -189,10 +178,8 @@
 			<string>support.constant</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
-				<string>#336699</string>
+				<string>#A535AE</string>
 			</dict>
 		</dict>
 		<dict>
@@ -202,21 +189,19 @@
 			<string>support.type, support.class</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
-				<string>#0099CC</string>
+				<string>#A535AE</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Library variable</string>
 			<key>scope</key>
-			<string>support.other.variable</string>
+			<string>support.variable</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
+				<key>foreground</key>
+				<string>#A535AE</string>
 			</dict>
 		</dict>
 		<dict>
@@ -227,24 +212,26 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#FF0000</string>
+				<string>#990000</string>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Constant</string>
+			<string>String interpolation</string>
 			<key>scope</key>
-			<string>constant</string>
+			<string>constant.other.placeholder.py</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#336699</string>
+				<string>#990000</string>
 			</dict>
 		</dict>
 	</array>
 	<key>uuid</key>
-	<string>1051464D-1AB9-4979-976E-56D415DFE3DF</string>
+	<string>DDC0CBE1-442B-4CB5-80E4-26E4CFB3A277</string>
 </dict>
 </plist>

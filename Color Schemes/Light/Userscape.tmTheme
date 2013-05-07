@@ -1,26 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+======================================================================
+Userscape
+======================================================================
+A Sublime Text 2 / Textmate theme.
+Copyright (c) 2012 Dayle Rees.
+Released under the MIT License <http://opensource.org/licenses/MIT>
+======================================================================
+Find more themes at : https://github.com/daylerees/colour-schemes
+======================================================================
+-->
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>Monokai</string>
+	<string>Userscape</string>
 	<key>settings</key>
 	<array>
 		<dict>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#292A24</string>
+				<string>#F5F8FC</string>
 				<key>caret</key>
 				<string>#F8F8F0</string>
 				<key>foreground</key>
-				<string>#C4C4BF</string>
+				<string>#879BB0</string>
 				<key>invisibles</key>
-				<string>#49483E</string>
+				<string>#ffffff</string>
 				<key>lineHighlight</key>
-				<string>#49483E</string>
+				<string>#CEDDF0</string>
 				<key>selection</key>
-				<string>#49483E</string>
+				<string>#C4E0FF</string>
+				<key>findHighlight</key>
+				<string>#FFE792</string>
+				<key>findHighlightForeground</key>
+				<string>#000000</string>
+				<key>selectionBorder</key>
+				<string>#A8D1FF</string>
+				<key>activeGuide</key>
+				<string>#9D550FB0</string>
+
+				<key>bracketsForeground</key>
+				<string>#F8F8F2A5</string>
+				<key>bracketsOptions</key>
+				<string>underline</string>
+
+				<key>bracketContentsForeground</key>
+				<string>#F8F8F2A5</string>
+				<key>bracketContentsOptions</key>
+				<string>underline</string>
+
+				<key>tagsOptions</key>
+				<string>stippled_underline</string>
 			</dict>
 		</dict>
 		<dict>
@@ -31,7 +63,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#75715E</string>
+				<string>#C1CDDB</string>
 			</dict>
 		</dict>
 		<dict>
@@ -41,23 +73,8 @@
 			<string>string</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
-				<string>#A3DF2C</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Embedded</string>
-			<key>scope</key>
-			<string>punctuation.section.embedded.coffee</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#FD971F</string>
+				<string>#E3BD14</string>
 			</dict>
 		</dict>
 		<dict>
@@ -68,9 +85,10 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#AE81FF</string>
+				<string>#DE4D3A</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Built-in constant</string>
@@ -79,7 +97,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#AE81FF</string>
+				<string>#DE4D3A</string>
 			</dict>
 		</dict>
 		<dict>
@@ -90,44 +108,42 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#AE81FF</string>
+				<string>#DE4D3A</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Variable</string>
 			<key>scope</key>
-			<string>variable.other.readwrite.instance.coffee, variable.other.readwrite.instance.ruby</string>
+			<string>variable</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
-				<key>foreground</key>
-				<string>#FFF6F6</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Keyword</string>
 			<key>scope</key>
-			<string>keyword, source.ruby.punctuation.separator.key-value, punctuation.separator.key-value</string>
+			<string>keyword</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#F92672</string>
+				<string>#808C9C</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Storage</string>
 			<key>scope</key>
-			<string>storage, storage.type.class.coffee</string>
+			<string>storage</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#F92672</string>
+				<string>#355B8C</string>
 			</dict>
 		</dict>
 		<dict>
@@ -140,20 +156,20 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#66D9EF</string>
+				<string>#A8C0E0</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Class name</string>
 			<key>scope</key>
-			<string>entity.name.class, entity.name.type.class.ruby, entity.name.type.class.coffee</string>
+			<string>entity.name.class</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string>underline</string>
 				<key>foreground</key>
-				<string>#66DAEF</string>
+				<string>#DE4D3A</string>
 			</dict>
 		</dict>
 		<dict>
@@ -164,9 +180,9 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>italic</string>
+				<string>italic underline</string>
 				<key>foreground</key>
-				<string>#A6E22E</string>
+				<string>#DE4D3A</string>
 			</dict>
 		</dict>
 		<dict>
@@ -179,7 +195,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#A6E22E</string>
+				<string>#E3BD14</string>
 			</dict>
 		</dict>
 		<dict>
@@ -192,66 +208,33 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#FD971F</string>
+				<string>#DE4D3A</string>
 			</dict>
 		</dict>
- 		<dict>
+		<dict>
 			<key>name</key>
-			<string>HTML-tags</string>
+			<string>Tag name</string>
 			<key>scope</key>
-			<string>entity.name.tag, meta.tag.any.html, meta.tag.any.html, punctuation.definition.tag.html</string>
+			<string>entity.name.tag</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#66DAEF</string>
+				<string>#355B8C</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>HTML</string>
+			<string>Tag attribute</string>
 			<key>scope</key>
-			<string>meta.tag.inline.any.html, meta.attribute-with-value.id.html, entity.other.attribute-name.html, meta.tag.block.any.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.html, punctuation.definition.tag.end.html, punctuation.definition.tag.begin.html, punctuation.separator.key-value.html, meta.tag.any.html</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#C4C4BF</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>HTML Attributes</string>
-			<key>scope</key>
-			<string>entity.other.attribute-name.html</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#AF81FE</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Handlebars</string>
-			<key>scope</key>
-			<string>text.html.handlebars, meta.function.inline.other.handlebars, entity.name.function.inline.any.handlebars</string>
+			<string>entity.other.attribute-name</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#FFFFFF</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>HTML IDs</string>
-			<key>scope</key>
-			<string>meta.attribute-with-value.id.html</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#FD971F</string>
+				<string>#A8C0E0</string>
 			</dict>
 		</dict>
 		<dict>
@@ -264,7 +247,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#66D9EF</string>
+				<string>#DE4D3A</string>
 			</dict>
 		</dict>
 		<dict>
@@ -277,20 +260,20 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#66D9EF</string>
+				<string>#DE4D3A</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Library class/type</string>
 			<key>scope</key>
-			<string>support.type, support.class, entity.name.type.instance.coffee</string>
+			<string>support.type, support.class</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#66D9EF</string>
+				<string>#DE4D3A</string>
 			</dict>
 		</dict>
 		<dict>
@@ -306,24 +289,13 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Braces</string>
-			<key>scope</key>
-			<string>meta.brace.square.js, meta.brace.curly.js, meta.brace.round.js, meta.brace.square.coffee, meta.brace.curly.coffee, meta.brace.round.coffee, punctuation.section.function.ruby, punctuation.separator.variable.ruby, punctuation.section.array.ruby</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#FFFFF8</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>Invalid</string>
 			<key>scope</key>
 			<string>invalid</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#F92672</string>
+				<string>#00A8C6</string>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
@@ -338,24 +310,89 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#AE81FF</string>
+				<string>#8FBE00</string>
 				<key>foreground</key>
 				<string>#F8F8F0</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Source</string>
+			<string>JSON String</string>
 			<key>scope</key>
-			<string>source.coffee</string>
+			<string>meta.structure.dictionary.json string.quoted.double.json</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#C4C4BF</string>
+				<string>#CFCFC2</string>
 			</dict>
 		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>diff.header</string>
+			<key>scope</key>
+			<string>meta.diff, meta.diff.header</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#75715E</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>diff.deleted</string>
+			<key>scope</key>
+			<string>markup.deleted</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00A8C6</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>diff.inserted</string>
+			<key>scope</key>
+			<string>markup.inserted</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A6E22E</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>diff.changed</string>
+			<key>scope</key>
+			<string>markup.changed</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E6DB74</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>scope</key>
+			<string>constant.numeric.line-number.find-in-files - match</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#8FBE00A0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>entity.name.filename.find-in-files</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E6DB74</string>
+			</dict>
+		</dict>
+
 	</array>
 	<key>uuid</key>
-	<string>D8D5E82E-3D5B-46B5-B38E-8C841C21347D</string>
+	<string>EB59E9AE-9B29-496B-9278-C656AF7B9A0B</string>
 </dict>
 </plist>

@@ -1,98 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+======================================================================
+Lavender
+======================================================================
+A Sublime Text 2 / Textmate theme.
+Copyright (c) 2012 Dayle Rees.
+Released under the MIT License <http://opensource.org/licenses/MIT>
+======================================================================
+Find more themes at : https://github.com/daylerees/colour-schemes
+======================================================================
+-->
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>Dark Pastel</string>
+	<string>Lavender</string>
 	<key>settings</key>
 	<array>
 		<dict>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#2a2a2a</string>
+				<string>#29222E</string>
 				<key>caret</key>
-				<string>#ffffff</string>
+				<string>#F8F8F0</string>
 				<key>foreground</key>
-				<string>#ffffff</string>
+				<string>#E0CEED</string>
 				<key>invisibles</key>
 				<string>#3B3A32</string>
 				<key>lineHighlight</key>
-				<string>#3E3D32</string>
+				<string>#3A2F42</string>
 				<key>selection</key>
-				<string>#237CC4</string>
+				<string>#161A1F</string>
 				<key>findHighlight</key>
 				<string>#FFE792</string>
 				<key>findHighlightForeground</key>
 				<string>#000000</string>
 				<key>selectionBorder</key>
-				<string>#cccccc</string>
+				<string>#222218</string>
 				<key>activeGuide</key>
 				<string>#9D550FB0</string>
 
+				<key>bracketsForeground</key>
+				<string>#F8F8F2A5</string>
 				<key>bracketsOptions</key>
-				<string>stippled_underline</string>
+				<string>underline</string>
+
+				<key>bracketContentsForeground</key>
+				<string>#F8F8F2A5</string>
 				<key>bracketContentsOptions</key>
-				<string>stippled_underline</string>
+				<string>underline</string>
+
 				<key>tagsOptions</key>
 				<string>stippled_underline</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Linter Outline</string>
-			<key>scope</key>
-			<string>sublimelinter.outline</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#2a2a2b</string>
-				<key>foreground</key>
-				<string>#ff6666</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Linter Underline</string>
-			<key>scope</key>
-			<string>sublimelinter.underline</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#ff6666</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Punctuation</string>
-			<key>scope</key>
-			<string>punctuation</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#eeeeee</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Meta Delimiter</string>
-			<key>scope</key>
-			<string>meta.delimiter</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#eeeeee</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Todo</string>
-			<key>scope</key>
-			<string>markup.todo</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#F29C00</string>
 			</dict>
 		</dict>
 		<dict>
@@ -103,7 +63,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#B8FF9A</string>
+				<string>#51415C</string>
 			</dict>
 		</dict>
 		<dict>
@@ -114,7 +74,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FF9F9A</string>
+				<string>#F5B0EF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -125,7 +85,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FEF89B</string>
+				<string>#F25AE6</string>
 			</dict>
 		</dict>
 
@@ -137,7 +97,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FEF89B</string>
+				<string>#8E69C9</string>
 			</dict>
 		</dict>
 		<dict>
@@ -148,7 +108,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#AE81FF</string>
+				<string>#8E69C9</string>
 			</dict>
 		</dict>
 		<dict>
@@ -164,13 +124,13 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Control Keyword</string>
+			<string>Keyword</string>
 			<key>scope</key>
-			<string>keyword.control</string>
+			<string>keyword</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#66D9EF</string>
+				<string>#8E6DA6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -180,8 +140,10 @@
 			<string>storage</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string></string>
 				<key>foreground</key>
-				<string>#ffffff</string>
+				<string>#B657FF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -191,8 +153,10 @@
 			<string>storage.type</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
 				<key>foreground</key>
-				<string>#66D9EF</string>
+				<string>#A29DFA</string>
 			</dict>
 		</dict>
 		<dict>
@@ -205,7 +169,7 @@
 				<key>fontStyle</key>
 				<string>underline</string>
 				<key>foreground</key>
-				<string>#A6E22E</string>
+				<string>#8E69C9</string>
 			</dict>
 		</dict>
 		<dict>
@@ -218,7 +182,7 @@
 				<key>fontStyle</key>
 				<string>italic underline</string>
 				<key>foreground</key>
-				<string>#A6E22E</string>
+				<string>#8E69C9</string>
 			</dict>
 		</dict>
 		<dict>
@@ -231,7 +195,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#A6E22E</string>
+				<string>#ECC0FA</string>
 			</dict>
 		</dict>
 		<dict>
@@ -244,7 +208,7 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#FD971F</string>
+				<string>#8E69C9</string>
 			</dict>
 		</dict>
 		<dict>
@@ -257,7 +221,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#F29C00</string>
+				<string>#B657FF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -270,7 +234,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#F29C00</string>
+				<string>#A29DFA</string>
 			</dict>
 		</dict>
 		<dict>
@@ -283,7 +247,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#66D9EF</string>
+				<string>#8E69C9</string>
 			</dict>
 		</dict>
 		<dict>
@@ -296,7 +260,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#66D9EF</string>
+				<string>#8E69C9</string>
 			</dict>
 		</dict>
 		<dict>
@@ -309,7 +273,7 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#66D9EF</string>
+				<string>#8E69C9</string>
 			</dict>
 		</dict>
 		<dict>
@@ -331,7 +295,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#F92672</string>
+				<string>#00A8C6</string>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
@@ -346,9 +310,20 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#AE81FF</string>
+				<string>#8FBE00</string>
 				<key>foreground</key>
 				<string>#F8F8F0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON String</string>
+			<key>scope</key>
+			<string>meta.structure.dictionary.json string.quoted.double.json</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CFCFC2</string>
 			</dict>
 		</dict>
 
@@ -371,7 +346,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#F92672</string>
+				<string>#00A8C6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -403,7 +378,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ffffffa0</string>
+				<string>#8FBE00A0</string>
 			</dict>
 		</dict>
 		<dict>
@@ -412,12 +387,12 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#B8FF9A</string>
+				<string>#E6DB74</string>
 			</dict>
 		</dict>
 
 	</array>
 	<key>uuid</key>
-	<string>D8D5E82E-3D5B-46B5-B38E-8C841C21347D</string>
+	<string>F0BB0D67-87D9-4B6C-98E2-7DB00D3981EF</string>
 </dict>
 </plist>

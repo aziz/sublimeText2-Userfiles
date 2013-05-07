@@ -13,7 +13,7 @@
 		}
 	],
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/User/Color Schemes/Colorized-44935598394140-PlasticCodeWrap.tmTheme",
+	"color_scheme": "Packages/User/Color Schemes/PlasticCodeWrap.tmTheme",
 	"detect_slow_plugins": true,
 	"draw_indent_guides": true,
 	"draw_minimap_border": false,
@@ -117,7 +117,6 @@
 		"Objective-C",
 		"AAAPackageDev",
 		"RSpec",
-		"CTags",
 		"Clojure",
 		"BufferScroll",
 		"Clipboard History",
@@ -126,6 +125,7 @@
 		"Handlebars",
 		"JavaScriptNext: ES6 Syntax",
 		"ASCII Decorator",
+		"OCaml",
 		"RSpec (snippets and syntax)",
 		"Clickable URLs",
 		"SublimeTODO",
@@ -138,7 +138,7 @@
 		"Alignment",
 		"AngularJS (CoffeeScript)",
 		"Go",
-		"OCaml",
+		"CTags",
 		"PHP",
 		"PyV8",
 		"C++"

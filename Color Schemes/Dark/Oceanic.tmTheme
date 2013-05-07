@@ -1,47 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>author</key>
+	<string>memco</string>
+	<key>comment</key>
+	<string>Oceanic theme features light-on-dark ocean-inspired colors.  Based on Erebus.</string>
 	<key>name</key>
-	<string>Monokai FannonEd</string>
+	<string>Oceanic</string>
 	<key>settings</key>
 	<array>
 		<dict>
-
-			<key>bracketsForeground</key>
-			<string>#AE81FF</string>
-
-			<key>bracketsOptions</key>
-			<string>underline</string>
-
-			<key>bracketContentsForeground</key>
-			<string>#F8F8F2A5</string>
-			<key>bracketContentsOptions</key>
-			<string>underline</string>
-
-			<key>tagsOptions</key>
-			<string>stippled_underline</string>
-
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#0A0A0A</string>
+				<string>#1B2630</string>
 				<key>caret</key>
 				<string>#F8F8F0</string>
 				<key>foreground</key>
 				<string>#F8F8F2</string>
 				<key>invisibles</key>
-				<string>#3B3A32</string>
+				<string>#546A68</string>
 				<key>lineHighlight</key>
-				<string>#2D2D2D</string>
+				<string>#3D2E2E77</string>
 				<key>selection</key>
-				<string>#2B2B2B</string>
-				<key>findHighlight</key>
-				<string>#FFE792</string>
-				<key>findHighlightForeground</key>
-				<string>#000000</string>
-				<key>selectionBorder</key>
-				<string>#555555</string>
+				<string>#95A3A63D</string>
 			</dict>
 		</dict>
 		<dict>
@@ -52,7 +35,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#999999</string>
+				<string>#6D6D6D</string>
 			</dict>
 		</dict>
 		<dict>
@@ -63,7 +46,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#F3E87E</string>
+				<string>#8AD6F2</string>
 			</dict>
 		</dict>
 		<dict>
@@ -74,7 +57,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#AE81FF</string>
+				<string>#78BDD6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -85,7 +68,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#AE81FF</string>
+				<string>#78BDD6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -96,7 +79,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#AE81FF</string>
+				<string>#78BDD6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -106,8 +89,10 @@
 			<string>variable</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string></string>
 				<key>foreground</key>
-				<string>#678CB1</string>
+				<string>#FCB666</string>
 			</dict>
 		</dict>
 		<dict>
@@ -118,7 +103,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#EC7600</string>
+				<string>#E47D80</string>
 			</dict>
 		</dict>
 		<dict>
@@ -131,7 +116,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#EC7600</string>
+				<string>#D95757</string>
 			</dict>
 		</dict>
 		<dict>
@@ -144,7 +129,7 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#66D9EF</string>
+				<string>#FFB266</string>
 			</dict>
 		</dict>
 		<dict>
@@ -157,7 +142,7 @@
 				<key>fontStyle</key>
 				<string>underline</string>
 				<key>foreground</key>
-				<string>#A6E22E</string>
+				<string>#F2AAEC</string>
 			</dict>
 		</dict>
 		<dict>
@@ -170,7 +155,7 @@
 				<key>fontStyle</key>
 				<string>italic underline</string>
 				<key>foreground</key>
-				<string>#A6E22E</string>
+				<string>#F2AAEC</string>
 			</dict>
 		</dict>
 		<dict>
@@ -183,7 +168,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#A6E22E</string>
+				<string>#F2AAEC</string>
 			</dict>
 		</dict>
 		<dict>
@@ -196,7 +181,7 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#FD971F</string>
+				<string>#FFD2A6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -209,7 +194,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#FE890C</string>
+				<string>#BAE682</string>
 			</dict>
 		</dict>
 		<dict>
@@ -222,7 +207,18 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#A6E22E</string>
+				<string>#93E690</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>ASP punctuation</string>
+			<key>scope</key>
+			<string>punctuation.section.embedded.begin.asp, punctuation.section.embedded.end.asp</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CFAFCF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -235,7 +231,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#66D9EF</string>
+				<string>#FFB266</string>
 			</dict>
 		</dict>
 		<dict>
@@ -248,7 +244,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#FFFFFF</string>
+				<string>#FFB266</string>
 			</dict>
 		</dict>
 		<dict>
@@ -259,9 +255,9 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>italic</string>
+				<string>bold</string>
 				<key>foreground</key>
-				<string>#66D9EF</string>
+				<string>#F7FCA2</string>
 			</dict>
 		</dict>
 		<dict>
@@ -277,13 +273,217 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>HTML tag</string>
+			<key>scope</key>
+			<string>punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#F7FCA2</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Namespaces</string>
+			<key>scope</key>
+			<string>support.other.namespace, entity.name.type.namespace</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFD2A6</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Namespace Alias</string>
+			<key>scope</key>
+			<string>support.other.namespace.use-as.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFB266</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Namespace Keyword</string>
+			<key>scope</key>
+			<string>variable.language.namespace.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#D17B7B</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Namespace Separator</string>
+			<key>scope</key>
+			<string>punctuation.separator.inheritance.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E57EDD</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS ID / Class</string>
+			<key>scope</key>
+			<string>entity.other.attribute-name.id.css, entity.other.attribute-name.class.css</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#BAE682</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS Pseudo Class</string>
+			<key>scope</key>
+			<string>entity.other.attribute-name.pseudo-class.css</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#93E690</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS Functions / Property Values</string>
+			<key>scope</key>
+			<string>support.function.misc.css, support.constant.property-value.css, support.constant.font-name.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFD2A6</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS property</string>
+			<key>scope</key>
+			<string>support.type.proerty</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#242424</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS Numeric Constant</string>
+			<key>scope</key>
+			<string>constant.numeric.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#8AD6F2</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS Function Parameters</string>
+			<key>scope</key>
+			<string>variable.parameter.misc.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#78BDD6</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Twig Tagbraces</string>
+			<key>scope</key>
+			<string>entity.other.tagbraces.twig</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E57EDD</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Twig Tag</string>
+			<key>scope</key>
+			<string>keyword.control.twig</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFB266</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Twig Variable</string>
+			<key>scope</key>
+			<string>variable.other.twig</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFCCFB</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Twig Filter</string>
+			<key>scope</key>
+			<string>support.function.filter.twig</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#D95757</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Twig Variable Filter</string>
+			<key>scope</key>
+			<string>support.function.filter.variable.twig</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E57EDD</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Twig Function</string>
+			<key>scope</key>
+			<string>entity.name.function.twig</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#D95757</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Twig Function Argument</string>
+			<key>scope</key>
+			<string>entity.other.argument.twig</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFB2B2</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Invalid</string>
 			<key>scope</key>
 			<string>invalid</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#EC7600</string>
+				<string>#D95757</string>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
@@ -298,197 +498,13 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#AE81FF</string>
+				<string>#E57EDD</string>
 				<key>foreground</key>
 				<string>#F8F8F0</string>
 			</dict>
 		</dict>
-		<dict>
-			<key>name</key>
-			<string>JSON String</string>
-			<key>scope</key>
-			<string>meta.structure.dictionary.json string.quoted.double.json</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#CFCFC2</string>
-			</dict>
-		</dict>
-
-		<!-- DIFF -->
-		<dict>
-			<key>name</key>
-			<string>diff.header</string>
-			<key>scope</key>
-			<string>meta.diff, meta.diff.header</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#999999</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>diff.deleted</string>
-			<key>scope</key>
-			<string>markup.deleted</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#FF4A52</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>diff.inserted</string>
-			<key>scope</key>
-			<string>markup.inserted</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#A6E22E</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>diff.changed</string>
-			<key>scope</key>
-			<string>markup.changed</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#E6DB74</string>
-			</dict>
-		</dict>
-
-		<!-- SublimeLinter -->
-		<dict>
-		    <key>name</key>
-		    <string>SublimeLinter Annotations</string>
-		    <key>scope</key>
-		    <string>sublimelinter.notes</string>
-		    <key>settings</key>
-		    <dict>
-		        <key>background</key>
-		        <string>#FFFFAA</string>
-		        <key>foreground</key>
-		        <string>#FFFFFF</string>
-		    </dict>
-		</dict>
-		<dict>
-		    <key>name</key>
-		    <string>SublimeLinter Outline</string>
-		    <key>scope</key>
-		    <string>sublimelinter.illegal</string>
-		    <key>settings</key>
-		    <dict>
-		        <key>background</key>
-		        <string>#FF4A52</string>
-		        <key>foreground</key>
-		        <string>#FFFFFF</string>
-		    </dict>
-		</dict>
-		<dict>
-		    <key>name</key>
-		    <string>SublimeLinter Underline</string>
-		    <key>scope</key>
-		    <string>invalid.illegal</string>
-		    <key>settings</key>
-		    <dict>
-		        <key>background</key>
-		        <string>#FF0000</string>
-		    </dict>
-		</dict>
-		<dict>
-		    <key>name</key>
-		    <string>SublimeLinter Warning Outline</string>
-		    <key>scope</key>
-		    <string>sublimelinter.warning</string>
-		    <key>settings</key>
-		    <dict>
-		        <key>background</key>
-		        <string>#FFEF85</string>
-		        <key>foreground</key>
-		        <string>#FFFFFF</string>
-		    </dict>
-		</dict>
-		<dict>
-		    <key>name</key>
-		    <string>SublimeLinter Warning Underline</string>
-		    <key>scope</key>
-		    <string>invalid.warning</string>
-		    <key>settings</key>
-		    <dict>
-		        <key>background</key>
-		        <string>#D30000</string>
-		    </dict>
-		</dict>
-		<dict>
-		    <key>name</key>
-		    <string>SublimeLinter Violation Outline</string>
-		    <key>scope</key>
-		    <string>sublimelinter.violation</string>
-		    <key>settings</key>
-		    <dict>
-		        <key>background</key>
-		        <string>#ffffff33</string>
-		        <key>foreground</key>
-		        <string>#FFFFFF</string>
-		    </dict>
-		</dict>
-		<dict>
-		    <key>name</key>
-		    <string>SublimeLinter Violation Underline</string>
-		    <key>scope</key>
-		    <string>invalid.violation</string>
-		    <key>settings</key>
-		    <dict>
-		        <key>background</key>
-		        <string>#FF0000</string>
-		    </dict>
-		</dict>
-		<dict>
-         <key>name</key>
-         <string>Embedded source</string>
-         <key>scope</key>
-         <string>text source, string.unquoted</string>
-         <key>settings</key>
-         <dict>
-            <key>background</key>
-            <string>#1B1B1B</string>
-         </dict>
-     </dict>
-		<dict>
-         <key>name</key>
-         <string>Diff Header</string>
-         <key>scope</key>
-         <string>meta.diff.header</string>
-         <key>settings</key>
-         <dict>
-            <key>background</key>
-            <string>#88888844</string>
-            <key>foreground</key>
-            <string>#98ffff</string>
-         </dict>
-     </dict>
- 		<dict>
-          <key>name</key>
-          <string>Git Commit Comment</string>
-          <key>scope</key>
-          <string>comment.line.number-sign.git-commit</string>
-          <key>settings</key>
-          <dict>
-             <key>background</key>
-             <string>#88888822</string>
-             <key>foreground</key>
-             <string>#f4ce8a55</string>
-          </dict>
-      </dict>
-
 	</array>
 	<key>uuid</key>
-
-	uuid4
-	<string>279ec960-6e8c-11e1-b0c4-0800200c9a66</string>
+	<string>D127D730-9145-4CAE-AFDB-2DA82DD5297F</string>
 </dict>
 </plist>

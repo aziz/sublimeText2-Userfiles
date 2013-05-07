@@ -1,28 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+======================================================================
+Earthsong
+======================================================================
+A Sublime Text 2 / Textmate theme.
+Copyright (c) 2012 Dayle Rees.
+Released under the MIT License <http://opensource.org/licenses/MIT>
+======================================================================
+Find more themes at : https://github.com/daylerees/colour-schemes
+======================================================================
+-->
 <plist version="1.0">
 <dict>
-	<key>comment</key>
-	<string>Vibrant Pastels</string>
 	<key>name</key>
-	<string>Sidewalk Chalk Green Mod</string>
+	<string>Earthsong</string>
 	<key>settings</key>
 	<array>
 		<dict>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#2B2D2E</string>
+				<string>#36312C</string>
 				<key>caret</key>
-				<string>#7F7F7F</string>
+				<string>#F8F8F0</string>
 				<key>foreground</key>
-				<string>#FAFAFA</string>
+				<string>#EBD1B7</string>
 				<key>invisibles</key>
-				<string>#525252</string>
+				<string>#3B3A32</string>
 				<key>lineHighlight</key>
-				<string>#00000012</string>
+				<string>#45403B</string>
 				<key>selection</key>
-				<string>#C6C6C68F</string>
+				<string>#161A1F</string>
+				<key>findHighlight</key>
+				<string>#FFE792</string>
+				<key>findHighlightForeground</key>
+				<string>#000000</string>
+				<key>selectionBorder</key>
+				<string>#222218</string>
+				<key>activeGuide</key>
+				<string>#9D550FB0</string>
+
+				<key>bracketsForeground</key>
+				<string>#F8F8F2A5</string>
+				<key>bracketsOptions</key>
+				<string>underline</string>
+
+				<key>bracketContentsForeground</key>
+				<string>#F8F8F2A5</string>
+				<key>bracketContentsOptions</key>
+				<string>underline</string>
+
+				<key>tagsOptions</key>
+				<string>stippled_underline</string>
 			</dict>
 		</dict>
 		<dict>
@@ -32,10 +62,8 @@
 			<string>comment</string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				<string>#212223</string>
 				<key>foreground</key>
-				<string>#535353</string>
+				<string>#7A7267</string>
 			</dict>
 		</dict>
 		<dict>
@@ -45,10 +73,8 @@
 			<string>string</string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				<string>#010A2E40</string>
 				<key>foreground</key>
-				<string>#5F88B8</string>
+				<string>#F8BB39</string>
 			</dict>
 		</dict>
 		<dict>
@@ -59,9 +85,10 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E5DA39</string>
+				<string>#95CC5E</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>Built-in constant</string>
@@ -69,10 +96,8 @@
 			<string>constant.language</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
-				<string>#D56E26</string>
+				<string>#95CC5E</string>
 			</dict>
 		</dict>
 		<dict>
@@ -83,18 +108,18 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#C7EB37</string>
+				<string>#95CC5E</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Variable</string>
 			<key>scope</key>
-			<string>variable.language, variable.other</string>
+			<string>variable</string>
 			<key>settings</key>
 			<dict>
-				<key>foreground</key>
-				<string>#55A9DB</string>
+				<key>fontStyle</key>
+				<string></string>
 			</dict>
 		</dict>
 		<dict>
@@ -105,7 +130,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#62BA4D</string>
+				<string>#DB784D</string>
 			</dict>
 		</dict>
 		<dict>
@@ -117,6 +142,21 @@
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
+				<key>foreground</key>
+				<string>#D65940</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Storage type</string>
+			<key>scope</key>
+			<string>storage.type</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#C1DEA4</string>
 			</dict>
 		</dict>
 		<dict>
@@ -125,7 +165,12 @@
 			<key>scope</key>
 			<string>entity.name.class</string>
 			<key>settings</key>
-			<dict/>
+			<dict>
+				<key>fontStyle</key>
+				<string>underline</string>
+				<key>foreground</key>
+				<string>#95CC5E</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -133,17 +178,24 @@
 			<key>scope</key>
 			<string>entity.other.inherited-class</string>
 			<key>settings</key>
-			<dict/>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic underline</string>
+				<key>foreground</key>
+				<string>#95CC5E</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Function name</string>
 			<key>scope</key>
-			<string>entity.name.function, keyword.operator, keyword.other.name-of-parameter</string>
+			<string>entity.name.function</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string></string>
 				<key>foreground</key>
-				<string>#A3A3A3</string>
+				<string>#60A365</string>
 			</dict>
 		</dict>
 		<dict>
@@ -154,7 +206,9 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#95CC5E</string>
 			</dict>
 		</dict>
 		<dict>
@@ -166,6 +220,8 @@
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
+				<key>foreground</key>
+				<string>#DB784D</string>
 			</dict>
 		</dict>
 		<dict>
@@ -177,6 +233,8 @@
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
+				<key>foreground</key>
+				<string>#95CC5E</string>
 			</dict>
 		</dict>
 		<dict>
@@ -189,7 +247,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#66FFCC</string>
+				<string>#95CC5E</string>
 			</dict>
 		</dict>
 		<dict>
@@ -201,6 +259,8 @@
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
+				<key>foreground</key>
+				<string>#95CC5E</string>
 			</dict>
 		</dict>
 		<dict>
@@ -211,7 +271,9 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#95CC5E</string>
 			</dict>
 		</dict>
 		<dict>
@@ -232,47 +294,105 @@
 			<string>invalid</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Library object</string>
-			<key>scope</key>
-			<string>support.class, support.type, entity.name</string>
-			<key>settings</key>
-			<dict>
+				<key>background</key>
+				<string>#00A8C6</string>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#5F88B8</string>
+				<string>#F8F8F0</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Embedded code</string>
+			<string>Invalid deprecated</string>
 			<key>scope</key>
-			<string>string.unquoted.embedded, text source, string.unquoted</string>
+			<string>invalid.deprecated</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#00162B40</string>
+				<string>#8FBE00</string>
+				<key>foreground</key>
+				<string>#F8F8F0</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>String interpolation</string>
+			<string>JSON String</string>
 			<key>scope</key>
-			<string>constant.character.escaped, string source - string.unquoted.embedded, string string source</string>
+			<string>meta.structure.dictionary.json string.quoted.double.json</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#999999</string>
+				<string>#CFCFC2</string>
 			</dict>
 		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>diff.header</string>
+			<key>scope</key>
+			<string>meta.diff, meta.diff.header</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#75715E</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>diff.deleted</string>
+			<key>scope</key>
+			<string>markup.deleted</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00A8C6</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>diff.inserted</string>
+			<key>scope</key>
+			<string>markup.inserted</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A6E22E</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>diff.changed</string>
+			<key>scope</key>
+			<string>markup.changed</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E6DB74</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>scope</key>
+			<string>constant.numeric.line-number.find-in-files - match</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#8FBE00A0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>entity.name.filename.find-in-files</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E6DB74</string>
+			</dict>
+		</dict>
+
 	</array>
 	<key>uuid</key>
-	<string></string>
+	<string>6AC5629A-D5D9-4337-9674-6355EB039ADB</string>
 </dict>
 </plist>
