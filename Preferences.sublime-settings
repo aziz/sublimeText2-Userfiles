@@ -97,6 +97,7 @@
 		"C#",
 		"AppleScript",
 		"Scala",
+		"Graphviz",
 		"TCL",
 		"Haskell",
 		"EasyMotion",
@@ -121,16 +122,16 @@
 		"BufferScroll",
 		"Clipboard History",
 		"PersistentRegexHighlight",
+		"SublimeTODO",
 		"Exec In Window",
 		"Handlebars",
 		"JavaScriptNext: ES6 Syntax",
 		"ASCII Decorator",
-		"OCaml",
 		"RSpec (snippets and syntax)",
 		"Clickable URLs",
-		"SublimeTODO",
+		"OCaml",
 		"Tmux",
-		"Graphviz",
+		"Live CSS",
 		"JS2Coffee",
 		"Guard",
 		"Tag",
@@ -141,7 +142,9 @@
 		"CTags",
 		"PHP",
 		"PyV8",
-		"C++"
+		"C++",
+		".DS_Store",
+		"Theme - Default"
 	],
 	"indent_guide_options":
 	[
