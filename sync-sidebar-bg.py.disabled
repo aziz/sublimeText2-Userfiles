@@ -1,0 +1,42 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+# later:
+# allow users to have specific sidebar rules in their themes
+
+import sublime
+import sublime_plugin
+from os import path
+from plistlib import readPlist
+import codecs
+import json
+
+
+class SidebarMatchColorScheme(sublime_plugin.EventListener):
+
+    def on_activated(self, view):
+        path_packages = sublime.packages_path()
+        scheme_file = view.settings().get('color_scheme')
+        colour_scheme = path.normpath(scheme_file)
+        plist_file = readPlist(path_packages + colour_scheme.replace('Packages', ''))
+        colour_settings = plist_file["settings"][0]["settings"]
+
+        bg = colour_settings.get("background", '#FFFFFF')
+        fg = colour_settings.get("foreground", '#000000')
+
+        def hex_to_rgb(value):
+            value = value.lstrip('#')
+            lv = len(value)
+            return tuple(int(value[i:i+lv/3], 16) for i in range(0, lv, lv/3))
+
+        template = [{
+            "class": "sidebar_tree",
+            "layer0.tint": hex_to_rgb(bg),
+            "layer0.opacity": 1,
+            "dark_content": False
+        }]
+
+        json_str = json.dumps(template, sort_keys=True, indent=4, separators=(',', ': ')).encode('raw_unicode_escape')
+        new_theme_file_path = path_packages + "/User/" + view.settings().get('theme')
+        with codecs.open(new_theme_file_path, 'w', 'utf-8') as f:
+            f.write(json_str)
