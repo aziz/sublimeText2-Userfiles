@@ -1,7 +1,9 @@
 {
     "sublimelinter": "load-save",
-    // "sublimelinter_gutter_marks": false,
-    "sublimelinter_gutter_marks_theme": "hard",
+    "sublimelinter_gutter_marks": true,
+    "sublimelinter_gutter_marks_theme": "hard", // "alpha", "bright", "dark", "hard" and "simple"
+    "sublimelinter_fill_outlines": false,
+    "sublimelinter_mark_style": "none", //  "outline", "fill", "none"
     "sublimelinter_executable_map":
     {
         "ruby": "/Users/allen/.rvm/rubies/ruby-1.9.3-p392/bin/ruby"
