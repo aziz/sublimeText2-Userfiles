@@ -11,7 +11,6 @@
 			<dict>
 				<key>background</key>
 				<string>#00161B</string>
-				<!-- <string>#00161F</string> -->
 				<key>caret</key>
 				<string>#8BA7A7</string>
 				<key>foreground</key>
@@ -692,6 +691,19 @@
 			<dict>
 				<key>foreground</key>
 				<string>#9DF39F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Coffee comment annotation</string>
+			<key>scope</key>
+			<string>comment.block.coffee storage.type.annotation.coffeescript </string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#74CDFD</string>
+				<key>fontStyle</key>
+				<string>bold</string>
 			</dict>
 		</dict>
 		<dict>
