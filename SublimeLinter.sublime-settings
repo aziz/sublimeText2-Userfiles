@@ -8,7 +8,7 @@
     {
         "ruby": "/Users/allen/.rvm/rubies/ruby-1.9.3-p392/bin/ruby"
     },
-    // "sublimelinter_disable": ["css"],
+    "sublimelinter_disable": ["css"],
     "csslint_options": {
         "adjoining-classes": "warning",
         "box-model": true,
