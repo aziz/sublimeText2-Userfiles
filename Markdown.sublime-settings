@@ -7,8 +7,7 @@
 	"extensions":
 	[
 		"markdown",
-		"mdown",
-		"txt"
+		"mdown"
 	],
 	"font_face": "menlo",
 	"font_size": 15,
