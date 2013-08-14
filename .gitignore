@@ -9,4 +9,5 @@ GitHub.sublime-settings
 Gist.sublime-settings
 RubyTest.last-run
 Package Control.last-run
+Package Control.system-ca-bundle
 FileHistory.sublime-settings

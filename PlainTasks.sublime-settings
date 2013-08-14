@@ -1,4 +1,5 @@
 {
+  "indent_after_task": false,
 	"extensions":
 	[
 		"TODO",

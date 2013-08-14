@@ -6,7 +6,7 @@
     "sublimelinter_mark_style": "none", //  "outline", "fill", "none"
     "sublimelinter_executable_map":
     {
-        "ruby": "/Users/allen/.rvm/rubies/ruby-1.9.3-p392/bin/ruby"
+        "ruby": "/Users/allen/.rvm/rubies/ruby-2.0.0-p247/bin/ruby"
     },
     "sublimelinter_disable": ["css"],
     "csslint_options": {
