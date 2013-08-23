@@ -2,5 +2,7 @@
    "statusbar_branch": false
   ,"statusbar_status": true
   ,"git_command": "/usr/local/bin/git"
-  ,"statusbar_status_symbols" : {"modified": "≠", "added": "+", "deleted": "×", "untracked": "?", "conflicts": "‼", "renamed":"R", "copied":"C", "clean": "✔", "separator": " "}
+  ,"statusbar_status_symbols" : {"modified": "✱", "added": "✚", "deleted": "×", "untracked": "?", "conflicts": "‼", "renamed":"®", "copied":"©", "clean": "✔", "separator": " "}
 }
+
+

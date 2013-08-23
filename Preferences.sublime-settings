@@ -13,7 +13,7 @@
 		}
 	],
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/User/Color Schemes/Colorized-520918515857752-PlasticCodeWrap.tmTheme",
+	"color_scheme": "Packages/User/Color Schemes/Colorized-235396180679185-PlasticCodeWrap.tmTheme",
 	"detect_slow_plugins": true,
 	"draw_indent_guides": true,
 	"draw_minimap_border": false,
@@ -62,7 +62,7 @@
 		"no_round",
 		"directwrite"
 	],
-	"font_size": 14.0,
+	"font_size": 15.0,
 	"git_gutter_live_mode": false,
 	"ignored_packages":
 	[
@@ -76,7 +76,6 @@
 		"LaTeXTools",
 		"AAAPackageDev",
 		"AppleScript",
-		"CSScomb",
 		"D",
 		"Sass",
 		"nginx",
@@ -102,7 +101,6 @@
 		"Perl",
 		"Textile",
 		"Lua",
-		"Browser Refresh",
 		"FileTemplates",
 		"Sort Lines (Numerically)",
 		"TCL",
@@ -126,7 +124,6 @@
 		"Nettuts+ Fetch",
 		"Twitter Bootstrap Snippets",
 		"TidyHTML5",
-		"ToggleCssFormat",
 		"Better CoffeeScript",
 		"Batch File",
 		"ASP",
@@ -134,7 +131,7 @@
 		"SchemeCycler",
 		"JavaScriptNext - ES6 Syntax",
 		".DS_Store",
-		"Toggle Css Format",
+		"Emmet",
 		"EasyMotion",
 		"Makefile",
 		"Color Scheme - Default",
@@ -173,6 +170,7 @@
 		"draw_active"
 	],
 	"indent_to_bracket": true,
+	"overlay_scroll_bars": "enabled",
 	"preview_on_click": false,
 	"revert_font_size": 15,
 	"scroll_past_end": true,
