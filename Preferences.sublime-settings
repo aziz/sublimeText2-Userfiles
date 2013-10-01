@@ -13,7 +13,7 @@
 		}
 	],
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/User/Color Schemes/Colorized-235396180679185-PlasticCodeWrap.tmTheme",
+	"color_scheme": "Packages/User/Color Schemes/PlasticCodeWrap.tmTheme",
 	"detect_slow_plugins": true,
 	"draw_indent_guides": true,
 	"draw_minimap_border": false,
@@ -62,7 +62,7 @@
 		"no_round",
 		"directwrite"
 	],
-	"font_size": 15.0,
+	"font_size": 14.0,
 	"git_gutter_live_mode": false,
 	"ignored_packages":
 	[
